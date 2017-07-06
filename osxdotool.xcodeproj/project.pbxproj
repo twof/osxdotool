@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24643B861F0DDAE100F1D234 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24643B851F0DDAE100F1D234 /* Command.swift */; };
+		24643B881F0DDB5E00F1D234 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24643B871F0DDB5E00F1D234 /* InputError.swift */; };
 		246839831F08FB2B00D35B38 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246839821F08FB2B00D35B38 /* main.swift */; };
 		2468398A1F097DDD00D35B38 /* KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246839891F097DDD00D35B38 /* KeyCode.swift */; };
 		2468398C1F09D08500D35B38 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468398B1F09D08500D35B38 /* MouseButton.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24643B851F0DDAE100F1D234 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		24643B871F0DDB5E00F1D234 /* InputError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
 		2468397F1F08FB2B00D35B38 /* osxdotool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = osxdotool; sourceTree = BUILT_PRODUCTS_DIR; };
 		246839821F08FB2B00D35B38 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		246839891F097DDD00D35B38 /* KeyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCode.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				246839821F08FB2B00D35B38 /* main.swift */,
 				2468398B1F09D08500D35B38 /* MouseButton.swift */,
 				246839891F097DDD00D35B38 /* KeyCode.swift */,
+				24643B851F0DDAE100F1D234 /* Command.swift */,
+				24643B871F0DDB5E00F1D234 /* InputError.swift */,
 			);
 			path = osxdotool;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 				2468398A1F097DDD00D35B38 /* KeyCode.swift in Sources */,
 				246839831F08FB2B00D35B38 /* main.swift in Sources */,
 				2468398C1F09D08500D35B38 /* MouseButton.swift in Sources */,
+				24643B881F0DDB5E00F1D234 /* InputError.swift in Sources */,
+				24643B861F0DDAE100F1D234 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +268,7 @@
 				246839881F08FB2B00D35B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
