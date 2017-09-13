@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "28F071F0E8C168F84C022FA6B8A1B4DAE1A2E832",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "23C49E5E6302D3743D4FC52C4318C3B68CA0A3E2" : 9223372036854775807,
+    "28F071F0E8C168F84C022FA6B8A1B4DAE1A2E832" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4863B253-A54C-4F8B-A5DB-B15189CF7D0F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "23C49E5E6302D3743D4FC52C4318C3B68CA0A3E2" : "osxdotool\/.build\/checkouts\/CLSwift.git--8698936768018570117\/",
+    "28F071F0E8C168F84C022FA6B8A1B4DAE1A2E832" : "osxdotool\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "osxdotool",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "osxdotool.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/fnord\/Documents\/Swift\/osxdotool\/.build\/repositories\/CLSwift.git--8698936768018570117",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23C49E5E6302D3743D4FC52C4318C3B68CA0A3E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/twof\/osxdotool.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28F071F0E8C168F84C022FA6B8A1B4DAE1A2E832"
+    }
+  ]
+}

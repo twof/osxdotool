@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/master.swiftdeps"
+  },
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Command.swift": {
+    "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/Command.d",
+    "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/Command.swift.o",
+    "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/Command~partial.swiftmodule",
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/Command.swiftdeps"
+  },
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/InputError.swift": {
+    "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/InputError.d",
+    "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/InputError.swift.o",
+    "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/InputError~partial.swiftmodule",
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/InputError.swiftdeps"
+  },
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/KeyCode.swift": {
+    "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/KeyCode.d",
+    "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/KeyCode.swift.o",
+    "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/KeyCode~partial.swiftmodule",
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/KeyCode.swiftdeps"
+  },
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/main.swift": {
+    "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/main.d",
+    "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/main.swift.o",
+    "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/main.swiftdeps"
+  },
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/MouseButton.swift": {
+    "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/MouseButton.d",
+    "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/MouseButton.swift.o",
+    "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/MouseButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/osxdotool.build/MouseButton.swiftdeps"
+  }
+}

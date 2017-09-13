@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "CLSwift",
+      "reason": null,
+      "repositoryURL": "https://github.com/twof/CLSwift.git",
+      "version": "1.0.1"
+    }
+  ],
+  "version": 1
+}

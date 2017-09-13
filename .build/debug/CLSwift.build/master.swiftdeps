@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "488eb06f2c729684c48cca18ebe19cf3"
+build_time: [558661396, 442166000]
+inputs:
+  "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift/Extensions/Int+LosslessStringConvertible.swift": [558661391, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift/Models/Argument.swift": [558661391, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift/Models/CommandCenter.swift": [558661391, 0]
