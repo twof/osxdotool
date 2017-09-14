@@ -10,7 +10,6 @@
 		247B9A391F6A4D4B00042543 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B9A381F6A4D4B00042543 /* Character+Helpers.swift */; };
 		247B9A3B1F6A4E7E00042543 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B9A3A1F6A4E7E00042543 /* KeyboardHelper.swift */; };
 		247B9A3D1F6A4EC900042543 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B9A3C1F6A4EC900042543 /* Keyboard.swift */; };
-		24FB00E41F6A13190027D27C /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB00DE1F6A13190027D27C /* InputError.swift */; };
 		24FB00E51F6A13190027D27C /* KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB00E01F6A13190027D27C /* KeyCode.swift */; };
 		24FB00E61F6A13190027D27C /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB00E11F6A13190027D27C /* MouseButton.swift */; };
 		OBJ_34 /* Int+LosslessStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Int+LosslessStringConvertible.swift */; };
@@ -50,7 +49,6 @@
 		247B9A381F6A4D4B00042543 /* Character+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+Helpers.swift"; sourceTree = "<group>"; };
 		247B9A3A1F6A4E7E00042543 /* KeyboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 		247B9A3C1F6A4EC900042543 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
-		24FB00DE1F6A13190027D27C /* InputError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
 		24FB00E01F6A13190027D27C /* KeyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCode.swift; sourceTree = "<group>"; };
 		24FB00E11F6A13190027D27C /* MouseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseButton.swift; sourceTree = "<group>"; };
 		OBJ_12 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -97,14 +95,6 @@
 				247B9A381F6A4D4B00042543 /* Character+Helpers.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		24FB00DD1F6A13190027D27C /* ErrorHandling */ = {
-			isa = PBXGroup;
-			children = (
-				24FB00DE1F6A13190027D27C /* InputError.swift */,
-			);
-			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
 		24FB00DF1F6A13190027D27C /* Helpers */ = {
@@ -225,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				247B9A371F6A4D3300042543 /* Extensions */,
-				24FB00DD1F6A13190027D27C /* ErrorHandling */,
 				24FB00DF1F6A13190027D27C /* Helpers */,
 				24FB00E21F6A13190027D27C /* Keyboard */,
 				24FB00E31F6A13190027D27C /* Mouse */,
@@ -324,7 +313,6 @@
 				24FB00E51F6A13190027D27C /* KeyCode.swift in Sources */,
 				OBJ_34 /* Int+LosslessStringConvertible.swift in Sources */,
 				247B9A3B1F6A4E7E00042543 /* KeyboardHelper.swift in Sources */,
-				24FB00E41F6A13190027D27C /* InputError.swift in Sources */,
 				OBJ_35 /* Argument.swift in Sources */,
 				247B9A391F6A4D4B00042543 /* Character+Helpers.swift in Sources */,
 				OBJ_36 /* CommandCenter.swift in Sources */,
