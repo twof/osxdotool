@@ -36,10 +36,20 @@ public enum Key: String {
     case x
     case y
     case z
-    case bSlash = "\\"
-    case fSlash = "/"
+    case backSlash = "\\"
+    case slash = "/"
     case newLine = "\n"
     case tab = "\t"
+    case one = "1"
+    case two = "2"
+    case three = "3"
+    case four = "4"
+    case five = "5"
+    case six = "6"
+    case seven = "7"
+    case eight = "8"
+    case nine = "9"
+    case zero = "0"
     
     public var code: UInt8 {
         switch self {
@@ -95,16 +105,34 @@ public enum Key: String {
             return 17
         case .z:
             return 6
-        case .fSlash:
+        case .slash:
             return UInt8(kVK_ANSI_Slash)
-        case .bSlash:
+        case .backSlash:
             return UInt8(kVK_ANSI_Backslash)
         case .newLine:
             return UInt8(kVK_Return)
         case .tab:
             return UInt8(kVK_Tab)
-        case .exclamationPoint:
-            return UInt8(kvkex)
+        case .one:
+            return UInt8(kVK_ANSI_1)
+        case .two:
+            return UInt8(kVK_ANSI_2)
+        case .three:
+            return UInt8(kVK_ANSI_3)
+        case .four:
+            return UInt8(kVK_ANSI_4)
+        case .five:
+            return UInt8(kVK_ANSI_5)
+        case .six:
+            return UInt8(kVK_ANSI_6)
+        case .seven:
+            return UInt8(kVK_ANSI_7)
+        case .eight:
+            return UInt8(kVK_ANSI_8)
+        case .nine:
+            return UInt8(kVK_ANSI_9)
+        case .zero:
+            return UInt8(kVK_ANSI_0)
         }
     }
 }
