@@ -11,10 +11,7 @@
 		OBJ_35 /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Argument.swift */; };
 		OBJ_36 /* CommandCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* CommandCenter.swift */; };
 		OBJ_43 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Command.swift */; };
-		OBJ_44 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* InputError.swift */; };
-		OBJ_45 /* KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KeyCode.swift */; };
 		OBJ_46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* main.swift */; };
-		OBJ_47 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* MouseButton.swift */; };
 		OBJ_49 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CLSwift.framework */; };
 		OBJ_56 /* osxdotoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* osxdotoolTests.swift */; };
 		OBJ_58 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CLSwift.framework */; };
@@ -45,10 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_10 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
-		OBJ_11 /* KeyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCode.swift; sourceTree = "<group>"; };
 		OBJ_12 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_13 /* MouseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseButton.swift; sourceTree = "<group>"; };
 		OBJ_16 /* osxdotoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osxdotoolTests.swift; sourceTree = "<group>"; };
 		OBJ_21 /* Int+LosslessStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+LosslessStringConvertible.swift"; sourceTree = "<group>"; };
 		OBJ_23 /* Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
@@ -157,7 +151,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -166,7 +160,6 @@
 				OBJ_17 /* Dependencies */,
 				OBJ_25 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -181,10 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* Command.swift */,
-				OBJ_10 /* InputError.swift */,
-				OBJ_11 /* KeyCode.swift */,
 				OBJ_12 /* main.swift */,
-				OBJ_13 /* MouseButton.swift */,
 			);
 			name = osxdotool;
 			path = Sources/osxdotool;
@@ -259,7 +249,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -287,10 +277,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_43 /* Command.swift in Sources */,
-				OBJ_44 /* InputError.swift in Sources */,
-				OBJ_45 /* KeyCode.swift in Sources */,
 				OBJ_46 /* main.swift in Sources */,
-				OBJ_47 /* MouseButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
