@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Carbon.HIToolbox
 
 public enum Key: String {
     case a
@@ -35,6 +36,10 @@ public enum Key: String {
     case x
     case y
     case z
+    case bSlash = "\\"
+    case fSlash = "/"
+    case newLine = "\n"
+    case tab = "\t"
     
     public var code: UInt8 {
         switch self {
@@ -90,6 +95,16 @@ public enum Key: String {
             return 17
         case .z:
             return 6
+        case .fSlash:
+            return UInt8(kVK_ANSI_Slash)
+        case .bSlash:
+            return UInt8(kVK_ANSI_Backslash)
+        case .newLine:
+            return UInt8(kVK_Return)
+        case .tab:
+            return UInt8(kVK_Tab)
+        case .exclamationPoint:
+            return UInt8(kvkex)
         }
     }
 }

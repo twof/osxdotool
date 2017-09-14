@@ -1,9 +1,14 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "cec248d1976881e0ee25389f172df11f"
-build_time: [558664635, 690756000]
+build_time: [558693130, 63280000]
 inputs:
-  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Command.swift": [558581522, 0]
-  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/InputError.swift": [552771072, 0]
-  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/KeyCode.swift": [552355826, 0]
-  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/main.swift": [558663285, 0]
-  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/MouseButton.swift": [552361179, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/main.swift": [558689810, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Desktop/Desktop.swift": [558685344, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Extensions/Character+Helpers.swift": [558682739, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Helpers/KeyboardHelper.swift": [558692341, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Helpers/KeyCode.swift": [558688260, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Helpers/MouseButton.swift": [552361179, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Keyboard/Keyboard.swift": [558692255, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Misc/Misc.swift": [558685361, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Mouse/Mouse.swift": [558683874, 0]
+  "/Users/fnord/Documents/Swift/osxdotool/Sources/osxdotool/Window/Window.swift": [558685117, 0]

@@ -17,7 +17,7 @@ public class KeyboardHelper {
         keyU?.post(tap: .cghidEventTap)
     }
     
-    static func typeString(stringToType: String) {
+    public static func typeString(stringToType: String) {
         for c in stringToType.characters {
             pressKey(keyCode: (Key(rawValue: String(c))?.code)!)
         }

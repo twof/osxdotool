@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CLSwift
 
 //In the order they appear in xdotool man pages
 
