@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum Key: String {
+public enum Key: String {
     case a
     case b
     case c
@@ -36,7 +36,7 @@ enum Key: String {
     case y
     case z
     
-    var code: UInt8 {
+    public var code: UInt8 {
         switch self {
         case .a:
             return 0

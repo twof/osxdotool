@@ -10,33 +10,9 @@ import Foundation
 import Cocoa
 import CLSwift
 
-extension Character {
-    var asciiValue: UInt32? {
-        return String(self).unicodeScalars.filter{$0.isASCII}.first?.value
-    }
-}
-
-func pressKey(keyCode: UInt8) {
-    let keyD = CGEvent(keyboardEventSource: nil, virtualKey: CGKeyCode(keyCode), keyDown: true)
-    let keyU = CGEvent(keyboardEventSource: nil, virtualKey: CGKeyCode(keyCode), keyDown: false)
-    
-    keyD?.post(tap: .cghidEventTap)
-    keyU?.post(tap: .cghidEventTap)
-}
-
-func typeString(stringToType: String) {
-    for c in stringToType.characters {
-        pressKey(keyCode: (Key(rawValue: String(c))?.code)!)
-    }
-}
-
-let type = Argument<String>(argStrings: ["type"], minNumArgs: 1) { (toType) in
-    guard let toType = toType else {return}
-    typeString(stringToType: toType[0])
-}
 
 let commandCenter = CommandCenter(topLevelArgs: [
-    type
+    Keyboard.type
 ])
 
 let executedCommand = commandCenter.check()
