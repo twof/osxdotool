@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2468397E1F08FB2B00D35B38"
+               BlueprintIdentifier = "OBJ_38"
                BuildableName = "osxdotool"
                BlueprintName = "osxdotool"
                ReferencedContainer = "container:osxdotool.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2468397E1F08FB2B00D35B38"
+            BlueprintIdentifier = "OBJ_38"
             BuildableName = "osxdotool"
             BlueprintName = "osxdotool"
             ReferencedContainer = "container:osxdotool.xcodeproj">
@@ -42,7 +42,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -55,12 +55,18 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2468397E1F08FB2B00D35B38"
+            BlueprintIdentifier = "OBJ_38"
             BuildableName = "osxdotool"
             BlueprintName = "osxdotool"
             ReferencedContainer = "container:osxdotool.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "type hello"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -74,7 +80,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2468397E1F08FB2B00D35B38"
+            BlueprintIdentifier = "OBJ_38"
             BuildableName = "osxdotool"
             BlueprintName = "osxdotool"
             ReferencedContainer = "container:osxdotool.xcodeproj">

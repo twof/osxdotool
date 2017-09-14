@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2466A7D21F69FA56004FCAA7 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2466A7C41F69FA56004FCAA7 /* Command.swift */; };
-		2466A7D31F69FA56004FCAA7 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2466A7C51F69FA56004FCAA7 /* InputError.swift */; };
-		2466A7D41F69FA56004FCAA7 /* KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2466A7C61F69FA56004FCAA7 /* KeyCode.swift */; };
-		2466A7D51F69FA56004FCAA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2466A7C71F69FA56004FCAA7 /* main.swift */; };
-		2466A7D61F69FA56004FCAA7 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2466A7C81F69FA56004FCAA7 /* MouseButton.swift */; };
 		OBJ_34 /* Int+LosslessStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Int+LosslessStringConvertible.swift */; };
 		OBJ_35 /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Argument.swift */; };
 		OBJ_36 /* CommandCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* CommandCenter.swift */; };
+		OBJ_43 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Command.swift */; };
+		OBJ_44 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* InputError.swift */; };
+		OBJ_45 /* KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KeyCode.swift */; };
+		OBJ_46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* main.swift */; };
+		OBJ_47 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* MouseButton.swift */; };
 		OBJ_49 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CLSwift.framework */; };
 		OBJ_56 /* osxdotoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* osxdotoolTests.swift */; };
 		OBJ_58 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CLSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2466A78B1F69FA33004FCAA7 /* PBXContainerItemProxy */ = {
+		2413DEA91F6A06C80021A917 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_29;
 			remoteInfo = CLSwift;
 		};
-		2466A78C1F69FA33004FCAA7 /* PBXContainerItemProxy */ = {
+		2413DEAA1F6A06C80021A917 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_29;
 			remoteInfo = CLSwift;
 		};
-		2466A78D1F69FA33004FCAA7 /* PBXContainerItemProxy */ = {
+		2413DEAB1F6A06C80021A917 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -45,18 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2466A7C41F69FA56004FCAA7 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
-		2466A7C51F69FA56004FCAA7 /* InputError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
-		2466A7C61F69FA56004FCAA7 /* KeyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCode.swift; sourceTree = "<group>"; };
-		2466A7C71F69FA56004FCAA7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2466A7C81F69FA56004FCAA7 /* MouseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseButton.swift; sourceTree = "<group>"; };
+		OBJ_10 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
+		OBJ_11 /* KeyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCode.swift; sourceTree = "<group>"; };
+		OBJ_12 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_13 /* MouseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseButton.swift; sourceTree = "<group>"; };
 		OBJ_16 /* osxdotoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osxdotoolTests.swift; sourceTree = "<group>"; };
 		OBJ_21 /* Int+LosslessStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+LosslessStringConvertible.swift"; sourceTree = "<group>"; };
 		OBJ_23 /* Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
 		OBJ_24 /* CommandCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandCenter.swift; sourceTree = "<group>"; };
 		OBJ_26 /* CLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_27 /* osxdotool */ = {isa = PBXFileReference; lastKnownFileType = text; path = osxdotool; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_28 /* osxdotoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = osxdotoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_28 /* osxdotoolTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = osxdotoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,19 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2466A78E1F69FA56004FCAA7 /* osxdotool */ = {
-			isa = PBXGroup;
-			children = (
-				2466A7C41F69FA56004FCAA7 /* Command.swift */,
-				2466A7C51F69FA56004FCAA7 /* InputError.swift */,
-				2466A7C61F69FA56004FCAA7 /* KeyCode.swift */,
-				2466A7C71F69FA56004FCAA7 /* main.swift */,
-				2466A7C81F69FA56004FCAA7 /* MouseButton.swift */,
-			);
-			name = osxdotool;
-			path = Sources/osxdotool;
-			sourceTree = "<group>";
-		};
 		OBJ_14 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,13 +160,35 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				2466A78E1F69FA56004FCAA7 /* osxdotool */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
 				OBJ_14 /* Tests */,
 				OBJ_17 /* Dependencies */,
 				OBJ_25 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* osxdotool */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* osxdotool */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Command.swift */,
+				OBJ_10 /* InputError.swift */,
+				OBJ_11 /* KeyCode.swift */,
+				OBJ_12 /* main.swift */,
+				OBJ_13 /* MouseButton.swift */,
+			);
+			name = osxdotool;
+			path = Sources/osxdotool;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -266,14 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				2466A7D61F69FA56004FCAA7 /* MouseButton.swift in Sources */,
 				OBJ_34 /* Int+LosslessStringConvertible.swift in Sources */,
 				OBJ_35 /* Argument.swift in Sources */,
-				2466A7D41F69FA56004FCAA7 /* KeyCode.swift in Sources */,
 				OBJ_36 /* CommandCenter.swift in Sources */,
-				2466A7D51F69FA56004FCAA7 /* main.swift in Sources */,
-				2466A7D31F69FA56004FCAA7 /* InputError.swift in Sources */,
-				2466A7D21F69FA56004FCAA7 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				OBJ_43 /* Command.swift in Sources */,
+				OBJ_44 /* InputError.swift in Sources */,
+				OBJ_45 /* KeyCode.swift in Sources */,
+				OBJ_46 /* main.swift in Sources */,
+				OBJ_47 /* MouseButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,17 +308,17 @@
 		OBJ_50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_29 /* CLSwift */;
-			targetProxy = 2466A78B1F69FA33004FCAA7 /* PBXContainerItemProxy */;
+			targetProxy = 2413DEA91F6A06C80021A917 /* PBXContainerItemProxy */;
 		};
 		OBJ_59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_29 /* CLSwift */;
-			targetProxy = 2466A78C1F69FA33004FCAA7 /* PBXContainerItemProxy */;
+			targetProxy = 2413DEAA1F6A06C80021A917 /* PBXContainerItemProxy */;
 		};
 		OBJ_60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_38 /* osxdotool */;
-			targetProxy = 2466A78D1F69FA33004FCAA7 /* PBXContainerItemProxy */;
+			targetProxy = 2413DEAB1F6A06C80021A917 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
