@@ -5,6 +5,8 @@ import CLSwift
 class KeyboardTests: XCTestCase {
     // I honestly have no idea how to unit test most of these. Sorry everyone.
     // I'm just gonna run stuff and pass if nothing crashes
+    
+    // I need to find a way to test these without any typing actually happening
     func testTypeNothing() {
         let cc = CommandCenter(topLevelArgs: [
             Keyboard.type

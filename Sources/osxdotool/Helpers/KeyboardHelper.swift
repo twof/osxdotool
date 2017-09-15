@@ -9,13 +9,16 @@
 import Foundation
 
 public class KeyboardHelper {
-    
     static func pressKey(key: [KeyType]) {
-        for k in key {
-            keyDown(key: k)
-        }
         
         for k in key {
+            keyDown(key: k)
+            usleep(5000)
+        }
+        
+        usleep(5000)
+        
+        for k in key.reversed() {
             keyUp(key: k)
         }
     }
@@ -23,13 +26,13 @@ public class KeyboardHelper {
     static func keyDown(key: KeyType) {
         let keyD = CGEvent(keyboardEventSource: nil, virtualKey: CGKeyCode(key.code), keyDown: true)
         
-        keyD?.post(tap: .cghidEventTap)
+        keyD?.post(tap: .cgSessionEventTap)
     }
     
     static func keyUp(key: KeyType) {
         let keyU = CGEvent(keyboardEventSource: nil, virtualKey: CGKeyCode(key.code), keyDown: false)
         
-        keyU?.post(tap: .cghidEventTap)
+        keyU?.post(tap: .cgSessionEventTap)
     }
     
     public static func typeString(stringToType: String) throws {
