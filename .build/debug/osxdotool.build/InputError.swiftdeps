@@ -7,6 +7,7 @@ provides-member:
 - ["O9osxdotool10InputError", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Character"
 - "Error"
 - "InputError"
 - "String"
@@ -16,16 +17,19 @@ depends-member:
 - ["Ps5Error", "_getEmbeddedNSError"]
 - ["Ps5Error", "_userInfo"]
 - ["Ps5Error", ""]
+- ["O9osxdotool10InputError", "Character"]
 - ["O9osxdotool10InputError", "String"]
 - ["O9osxdotool10InputError", "_code"]
 - ["O9osxdotool10InputError", "_domain"]
 - ["O9osxdotool10InputError", "_getEmbeddedNSError"]
 - ["O9osxdotool10InputError", "_userInfo"]
 - ["O9osxdotool10InputError", "deinit"]
+- ["O9osxdotool10InputError", "invalidCharToType"]
 - ["O9osxdotool10InputError", "invalidCommand"]
 - ["O9osxdotool10InputError", "invalidType"]
 - ["O9osxdotool10InputError", "tooFewArgs"]
 - ["O9osxdotool10InputError", "unimplimented"]
+- ["O9osxdotool10InputError", "unsupportedCharToType"]
 depends-nominal:
 - "Ps5Error"
 - "O9osxdotool10InputError"
@@ -54,4 +58,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "cab54e84bf016a590866d848cbc3f583"
+interface-hash: "5eae9ccc2d4ca124521e133daa3f2b46"

@@ -9,6 +9,6 @@
 import Foundation
 
 public struct KeyConstants {
-    public static let TYPEABLE_CHARACTERS = "`1234567890-=~!@#$%^&*()_+\tqwertyuiop[]\\{}|asdfghjkl;\':\"\nzxcvbnm,./<>?QWERTYUIOPASDFGHJKLZXCVBNM "
-    public static let SHIFT_REQUIRED_CHARACTERS = "QWERTYUIOPASDFGHJKLZXCVBNM~!@#$%^&*()_+{}|:\"<>?"
+    public static let typeableCharacters = "`1234567890-=~!@#$%^&*()_+\tqwertyuiop[]\\{}|asdfghjkl;\':\"\nzxcvbnm,./<>?QWERTYUIOPASDFGHJKLZXCVBNM "
+    public static let shiftRequiredCharacters = "QWERTYUIOPASDFGHJKLZXCVBNM~!@#$%^&*()_+{}|:\"<>?"
 }

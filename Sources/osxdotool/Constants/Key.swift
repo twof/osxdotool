@@ -9,7 +9,11 @@
 import Foundation
 import Carbon.HIToolbox
 
-public enum Key: String {
+public protocol KeyType {
+    var code: UInt8 {get}
+}
+
+public enum Key: String, KeyType {
     case a
     case b
     case c
@@ -36,6 +40,7 @@ public enum Key: String {
     case x
     case y
     case z
+    case space = " "
     case backSlash = "\\"
     case slash = "/"
     case newLine = "\n"
@@ -105,6 +110,8 @@ public enum Key: String {
             return 17
         case .z:
             return 6
+        case .space:
+            return UInt8(kVK_Space)
         case .slash:
             return UInt8(kVK_ANSI_Slash)
         case .backSlash:

@@ -37,12 +37,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>OBJ_52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>OBJ_54</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>OBJ_63</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>OBJ_72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>OBJ_85</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -2,6 +2,12 @@
   "": {
     "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/master.swiftdeps"
   },
+  "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift/ErrorHandling/InputError.swift": {
+    "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/InputError.d",
+    "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/ErrorHandling/InputError.swift.o",
+    "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/InputError~partial.swiftmodule",
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/InputError.swiftdeps"
+  },
   "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift/Extensions/Int+LosslessStringConvertible.swift": {
     "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/Int+LosslessStringConvertible.d",
     "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/Extensions/Int+LosslessStringConvertible.swift.o",
@@ -19,5 +25,11 @@
     "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/Models/CommandCenter.swift.o",
     "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/CommandCenter~partial.swiftmodule",
     "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/CommandCenter.swiftdeps"
+  },
+  "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift/Models/Result.swift": {
+    "dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/Result.d",
+    "object": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/Models/Result.swift.o",
+    "swiftmodule": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/Result~partial.swiftmodule",
+    "swift-dependencies": "/Users/fnord/Documents/Swift/osxdotool/.build/debug/CLSwift.build/Result.swiftdeps"
   }
 }

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sources/osxdotool/Helpers/KeyboardHelper.swift"
-            timestampString = "527072439.214484"
+            timestampString = "527125569.762963"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "typeString(stringToType:)"
             landmarkType = "7">
          </BreakpointContent>
