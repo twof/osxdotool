@@ -26,12 +26,12 @@ enum MouseButton: Int {
     private func leftClick() {
         let kDelayUSec : useconds_t = 500_000
         
-        let currentLoc = NSEvent.mouseLocation()
+        let currentLoc = NSEvent.mouseLocation
         
         
-        let mouseDown = CGEvent(mouseEventSource: nil, mouseType: .leftMouseDown, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation().y - 900) * -1), mouseButton: .left)
+        let mouseDown = CGEvent(mouseEventSource: nil, mouseType: .leftMouseDown, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation.y - 900) * -1), mouseButton: .left)
         
-        let mouseUp = CGEvent(mouseEventSource: nil, mouseType: .leftMouseUp, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation().y - 900) * -1), mouseButton: .left)
+        let mouseUp = CGEvent(mouseEventSource: nil, mouseType: .leftMouseUp, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation.y - 900) * -1), mouseButton: .left)
         
         mouseDown?.post(tap: .cghidEventTap)
         usleep(kDelayUSec)
@@ -41,12 +41,12 @@ enum MouseButton: Int {
     private func rightClick() {
         let kDelayUSec : useconds_t = 500_000
         
-        let currentLoc = NSEvent.mouseLocation()
+        let currentLoc = NSEvent.mouseLocation
         
         
-        let mouseDown = CGEvent(mouseEventSource: nil, mouseType: .rightMouseDown, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation().y - 900) * -1), mouseButton: .right)
+        let mouseDown = CGEvent(mouseEventSource: nil, mouseType: .rightMouseDown, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation.y - 900) * -1), mouseButton: .right)
         
-        let mouseUp = CGEvent(mouseEventSource: nil, mouseType: .rightMouseUp, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation().y - 900) * -1), mouseButton: .right)
+        let mouseUp = CGEvent(mouseEventSource: nil, mouseType: .rightMouseUp, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation.y - 900) * -1), mouseButton: .right)
         
         mouseDown?.post(tap: .cghidEventTap)
         usleep(kDelayUSec)
@@ -56,12 +56,12 @@ enum MouseButton: Int {
     private func middleClick() {
         let kDelayUSec : useconds_t = 500_000
         
-        let currentLoc = NSEvent.mouseLocation()
+        let currentLoc = NSEvent.mouseLocation
         
         
-        let mouseDown = CGEvent(mouseEventSource: nil, mouseType: .otherMouseDown, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation().y - 900) * -1), mouseButton: .center)
+        let mouseDown = CGEvent(mouseEventSource: nil, mouseType: .otherMouseDown, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation.y - 900) * -1), mouseButton: .center)
         
-        let mouseUp = CGEvent(mouseEventSource: nil, mouseType: .otherMouseUp, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation().y - 900) * -1), mouseButton: .center)
+        let mouseUp = CGEvent(mouseEventSource: nil, mouseType: .otherMouseUp, mouseCursorPosition: CGPoint(x: currentLoc.x, y: (NSEvent.mouseLocation.y - 900) * -1), mouseButton: .center)
         
         mouseDown?.post(tap: .cghidEventTap)
         usleep(kDelayUSec)

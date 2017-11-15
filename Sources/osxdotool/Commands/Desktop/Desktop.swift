@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CLSwift
 
 public class Desktop {
 //    public static let windowActivate

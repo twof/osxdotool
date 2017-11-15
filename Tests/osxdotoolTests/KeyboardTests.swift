@@ -8,90 +8,84 @@ class KeyboardTests: XCTestCase {
     
     // I need to find a way to test these without any typing actually happening
     func testTypeNothing() {
+        let commandline = ["/path/", "type", ""]
         let cc = CommandCenter(topLevelArgs: [
             Keyboard.type
-        ])
+            ], input: commandline)
         
-        let commandline = ["/path/", "type", ""]
-        
-        let exec = cc.check(input: commandline)
+        let exec = cc.check()
         
         if let exec = exec {
-            exec.execute(commandline: commandline)
+            exec.execute(commandline: cc.input)
         }
     }
     
     func testTypeSingleWord() {
+        let commandline = ["/path/", "type", "hello"]
         let cc = CommandCenter(topLevelArgs: [
             Keyboard.type
-            ])
+            ], input: commandline)
         
-        let commandline = ["/path/", "type", "hello"]
-        
-        let exec = cc.check(input: commandline)
+        let exec = cc.check()
         
         if let exec = exec {
-            exec.execute(commandline: commandline)
+            exec.execute(commandline: cc.input)
         }
     }
     
     func testTypeNoInput() {
+        let commandline = ["/path/", "type"]
         let cc = CommandCenter(topLevelArgs: [
             Keyboard.type
-            ])
+            ], input: commandline)
         
-        let commandline = ["/path/", "type"]
-        
-        let exec = cc.check(input: commandline)
+        let exec = cc.check()
         
         if let exec = exec {
-            exec.execute(commandline: commandline)
+            exec.execute(commandline: cc.input)
         }
     }
     
     // Expected output is "hello world!"
     func testTypeInputWithSpace() {
+        let commandline = ["/path/", "type", "hello world!"]
         let cc = CommandCenter(topLevelArgs: [
             Keyboard.type
-            ])
+            ], input: commandline)
         
-        let commandline = ["/path/", "type", "hello world!"]
-        
-        let exec = cc.check(input: commandline)
+        let exec = cc.check()
         
         if let exec = exec {
-            exec.execute(commandline: commandline)
+            exec.execute(commandline: cc.input)
         }
     }
     
     // Expected output is "hello world!"
     func testTypeInputWithTab() {
+        let commandline = ["/path/", "type", "hello\tworld!"]
         let cc = CommandCenter(topLevelArgs: [
             Keyboard.type
-            ])
+            ], input: commandline)
         
-        let commandline = ["/path/", "type", "hello\tworld!"]
-        
-        let exec = cc.check(input: commandline)
+        let exec = cc.check()
         
         if let exec = exec {
-            exec.execute(commandline: commandline)
+            exec.execute(commandline: cc.input)
         }
     }
     
     // Expected output is "hello"
     // "world!"
     func testTypeInputWithNewline() {
+        let commandline = ["/path/", "type", "hello\nworld!"]
         let cc = CommandCenter(topLevelArgs: [
             Keyboard.type
-            ])
+            ], input: commandline)
         
-        let commandline = ["/path/", "type", "hello\nworld!"]
-        
-        let exec = cc.check(input: commandline)
+        let exec = cc.check()
         
         if let exec = exec {
-            exec.execute(commandline: commandline)
+            exec.execute(commandline: cc.input)
         }
     }
     

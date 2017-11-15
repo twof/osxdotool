@@ -26,23 +26,23 @@ public class KeyboardHelper {
     static func keyDown(key: KeyType) {
         let keyD = CGEvent(keyboardEventSource: nil, virtualKey: CGKeyCode(key.code), keyDown: true)
         
-        keyD?.post(tap: .cgSessionEventTap)
+        keyD?.post(tap: .cghidEventTap)
     }
     
     static func keyUp(key: KeyType) {
         let keyU = CGEvent(keyboardEventSource: nil, virtualKey: CGKeyCode(key.code), keyDown: false)
         
-        keyU?.post(tap: .cgSessionEventTap)
+        keyU?.post(tap: .cghidEventTap)
     }
     
     public static func typeString(stringToType: String) throws {
-        try stringToType.characters.forEach { (c) in
+        try stringToType.forEach { (c) in
             if !KeyConstants.typeableCharacters.contains(String(c)){
                 throw InputError.invalidCharToType(c)
             }
         }
        
-        for c in stringToType.characters {
+        for c in stringToType {
             let cString = String(c)
             
             if let key = ShiftRequiredKey(rawValue: cString) {

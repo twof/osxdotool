@@ -10,7 +10,7 @@ import Foundation
 import CLSwift
 
 //In the order they appear in xdotool man pages
-typealias clError = CLSwift.InputError
+public typealias clError = CLSwift.InputError
 
 public class Keyboard {
     //    public static let key
@@ -19,7 +19,7 @@ public class Keyboard {
     
     //    public static let keyDown
     
-    public static let type = Argument<String>(argStrings: ["type"], minNumArgs: 1) { (result) in
+    public static let type = Argument<String>(argStrings: ["type"], numArgs: .number(1)) { (result) in
         switch result {
         case .success(let input):
             let toType = input[0]
@@ -37,7 +37,7 @@ public class Keyboard {
             switch error {
             case clError.invalidType(let message):
                 print(message)
-            case clError.argumentNotFound:
+            case clError.tooFewArgs:
                 do {
                     try KeyboardHelper.typeString(stringToType: "")
                 }catch{

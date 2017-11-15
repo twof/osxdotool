@@ -6,205 +6,220 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"osxdotool::osxdotoolPackageTests::ProductTarget" /* osxdotoolPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_112 /* Build configuration list for PBXAggregateTarget "osxdotoolPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_115 /* PBXTargetDependency */,
+			);
+			name = osxdotoolPackageTests;
+			productName = osxdotoolPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		247B9A9B1F6B6EFA00042543 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Key.swift */; };
-		247B9A9C1F6B6EFA00042543 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* KeyConstants.swift */; };
-		247B9A9D1F6B6EFA00042543 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ModifierKey.swift */; };
-		247B9A9E1F6B6EFA00042543 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ShiftRequiredKey.swift */; };
-		247B9A9F1F6B6EFA00042543 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* InputError.swift */; };
-		247B9AA01F6B6EFA00042543 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* KeyboardHelper.swift */; };
-		247B9AA11F6B6EFA00042543 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* MouseButton.swift */; };
-		247B9AA21F6B6EFA00042543 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Keyboard.swift */; };
-		OBJ_57 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* InputError.swift */; };
-		OBJ_58 /* Int+LosslessStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Int+LosslessStringConvertible.swift */; };
-		OBJ_59 /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Argument.swift */; };
-		OBJ_60 /* CommandCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* CommandCenter.swift */; };
-		OBJ_61 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Result.swift */; };
-		OBJ_68 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
-		OBJ_69 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Key.swift */; };
-		OBJ_70 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* KeyConstants.swift */; };
-		OBJ_71 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ModifierKey.swift */; };
-		OBJ_72 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ShiftRequiredKey.swift */; };
-		OBJ_73 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* InputError.swift */; };
-		OBJ_74 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Character+Helpers.swift */; };
-		OBJ_75 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* KeyboardHelper.swift */; };
-		OBJ_76 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* MouseButton.swift */; };
-		OBJ_77 /* Desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Desktop.swift */; };
-		OBJ_78 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Keyboard.swift */; };
-		OBJ_79 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Misc.swift */; };
-		OBJ_80 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Mouse.swift */; };
-		OBJ_81 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Window.swift */; };
-		OBJ_83 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CLSwift.framework */; };
-		OBJ_90 /* HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* HelperTests.swift */; };
-		OBJ_91 /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* KeyboardTests.swift */; };
-		OBJ_93 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CLSwift.framework */; };
+		2425934F1FBBFFA1009447B2 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Keyboard.swift */; };
+		242593501FBBFFAA009447B2 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Key.swift */; };
+		242593511FBBFFAC009447B2 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* KeyConstants.swift */; };
+		242593521FBBFFB0009447B2 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ModifierKey.swift */; };
+		242593531FBBFFB5009447B2 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ShiftRequiredKey.swift */; };
+		242593541FBBFFBA009447B2 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* InputError.swift */; };
+		242593551FBBFFBF009447B2 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Character+Helpers.swift */; };
+		242593561FBBFFC4009447B2 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* KeyboardHelper.swift */; };
+		242593571FBBFFC6009447B2 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* MouseButton.swift */; };
+		OBJ_104 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* InputError.swift */; };
+		OBJ_105 /* ArrayElementString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ArrayElementString.swift */; };
+		OBJ_106 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* String.swift */; };
+		OBJ_107 /* Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Argument.swift */; };
+		OBJ_108 /* CommandCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* CommandCenter.swift */; };
+		OBJ_109 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Result.swift */; };
+		OBJ_59 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_65 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Package.swift */; };
+		OBJ_71 /* HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* HelperTests.swift */; };
+		OBJ_72 /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* KeyboardTests.swift */; };
+		OBJ_74 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CLSwift::CLSwift::Product" /* CLSwift.framework */; };
+		OBJ_83 /* Desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Desktop.swift */; };
+		OBJ_84 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Keyboard.swift */; };
+		OBJ_85 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Misc.swift */; };
+		OBJ_86 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Mouse.swift */; };
+		OBJ_87 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Window.swift */; };
+		OBJ_88 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Key.swift */; };
+		OBJ_89 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* KeyConstants.swift */; };
+		OBJ_90 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ModifierKey.swift */; };
+		OBJ_91 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ShiftRequiredKey.swift */; };
+		OBJ_92 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* InputError.swift */; };
+		OBJ_93 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Character+Helpers.swift */; };
+		OBJ_94 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* KeyboardHelper.swift */; };
+		OBJ_95 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* MouseButton.swift */; };
+		OBJ_96 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* main.swift */; };
+		OBJ_98 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CLSwift::CLSwift::Product" /* CLSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		247B9A981F6B6EC400042543 /* PBXContainerItemProxy */ = {
+		2425934B1FBBFAF0009447B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_52;
+			remoteGlobalIDString = "CLSwift::CLSwift";
 			remoteInfo = CLSwift;
 		};
-		247B9A991F6B6EC400042543 /* PBXContainerItemProxy */ = {
+		2425934C1FBBFAF0009447B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_52;
-			remoteInfo = CLSwift;
-		};
-		247B9A9A1F6B6EC400042543 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_63;
+			remoteGlobalIDString = "osxdotool::osxdotool";
 			remoteInfo = osxdotool;
+		};
+		2425934D1FBBFAF0009447B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CLSwift::CLSwift";
+			remoteInfo = CLSwift;
+		};
+		2425934E1FBBFAF0009447B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "osxdotool::osxdotoolTests";
+			remoteInfo = osxdotoolTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_11 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
-		OBJ_12 /* KeyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
-		OBJ_13 /* ModifierKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierKey.swift; sourceTree = "<group>"; };
-		OBJ_14 /* ShiftRequiredKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftRequiredKey.swift; sourceTree = "<group>"; };
-		OBJ_16 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
-		OBJ_18 /* Character+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Helpers.swift"; sourceTree = "<group>"; };
-		OBJ_20 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
-		OBJ_21 /* MouseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseButton.swift; sourceTree = "<group>"; };
-		OBJ_24 /* Desktop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop.swift; sourceTree = "<group>"; };
-		OBJ_26 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
-		OBJ_28 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
-		OBJ_30 /* Mouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
-		OBJ_32 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		"CLSwift::CLSwift::Product" /* CLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_11 /* Desktop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desktop.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Mouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		OBJ_22 /* KeyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
+		OBJ_23 /* ModifierKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierKey.swift; sourceTree = "<group>"; };
+		OBJ_24 /* ShiftRequiredKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftRequiredKey.swift; sourceTree = "<group>"; };
+		OBJ_26 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Character+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Helpers.swift"; sourceTree = "<group>"; };
+		OBJ_30 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		OBJ_31 /* MouseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseButton.swift; sourceTree = "<group>"; };
+		OBJ_32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_35 /* HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTests.swift; sourceTree = "<group>"; };
 		OBJ_36 /* KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTests.swift; sourceTree = "<group>"; };
 		OBJ_41 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
-		OBJ_43 /* Int+LosslessStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+LosslessStringConvertible.swift"; sourceTree = "<group>"; };
-		OBJ_45 /* Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
-		OBJ_46 /* CommandCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandCenter.swift; sourceTree = "<group>"; };
-		OBJ_47 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		OBJ_49 /* CLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_50 /* osxdotool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = osxdotool; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_51 /* osxdotoolTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = osxdotoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_43 /* ArrayElementString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayElementString.swift; sourceTree = "<group>"; };
+		OBJ_44 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_46 /* Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argument.swift; sourceTree = "<group>"; };
+		OBJ_47 /* CommandCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandCenter.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Package.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"osxdotool::osxdotool::Product" /* osxdotool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = osxdotool; sourceTree = BUILT_PRODUCTS_DIR; };
+		"osxdotool::osxdotoolTests::Product" /* osxdotoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = osxdotoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_62 /* Frameworks */ = {
+		OBJ_110 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_82 /* Frameworks */ = {
+		OBJ_73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_83 /* CLSwift.framework in Frameworks */,
+				OBJ_74 /* CLSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_92 /* Frameworks */ = {
+		OBJ_97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_93 /* CLSwift.framework in Frameworks */,
+				OBJ_98 /* CLSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_10 /* Constants */ = {
+		OBJ_10 /* Desktop */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* Key.swift */,
-				OBJ_12 /* KeyConstants.swift */,
-				OBJ_13 /* ModifierKey.swift */,
-				OBJ_14 /* ShiftRequiredKey.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		OBJ_15 /* ErrorHandling */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_16 /* InputError.swift */,
-			);
-			path = ErrorHandling;
-			sourceTree = "<group>";
-		};
-		OBJ_17 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_18 /* Character+Helpers.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		OBJ_19 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_20 /* KeyboardHelper.swift */,
-				OBJ_21 /* MouseButton.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		OBJ_22 /* Commands */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_23 /* Desktop */,
-				OBJ_25 /* Keyboard */,
-				OBJ_27 /* Misc */,
-				OBJ_29 /* Mouse */,
-				OBJ_31 /* Window */,
-			);
-			path = Commands;
-			sourceTree = "<group>";
-		};
-		OBJ_23 /* Desktop */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_24 /* Desktop.swift */,
+				OBJ_11 /* Desktop.swift */,
 			);
 			path = Desktop;
 			sourceTree = "<group>";
 		};
-		OBJ_25 /* Keyboard */ = {
+		OBJ_12 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_26 /* Keyboard.swift */,
+				OBJ_13 /* Keyboard.swift */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
 		};
-		OBJ_27 /* Misc */ = {
+		OBJ_14 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_28 /* Misc.swift */,
+				OBJ_15 /* Misc.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
 		};
-		OBJ_29 /* Mouse */ = {
+		OBJ_16 /* Mouse */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_30 /* Mouse.swift */,
+				OBJ_17 /* Mouse.swift */,
 			);
 			path = Mouse;
 			sourceTree = "<group>";
 		};
-		OBJ_31 /* Window */ = {
+		OBJ_18 /* Window */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_32 /* Window.swift */,
+				OBJ_19 /* Window.swift */,
 			);
 			path = Window;
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* Key.swift */,
+				OBJ_22 /* KeyConstants.swift */,
+				OBJ_23 /* ModifierKey.swift */,
+				OBJ_24 /* ShiftRequiredKey.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		OBJ_25 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* InputError.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		OBJ_27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* Character+Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_29 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* KeyboardHelper.swift */,
+				OBJ_31 /* MouseButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		OBJ_33 /* Tests */ = {
@@ -228,17 +243,18 @@
 		OBJ_37 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_38 /* CLSwift 1.0.6 */,
+				OBJ_38 /* CLSwift 1.1.1 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_38 /* CLSwift 1.0.6 */ = {
+		OBJ_38 /* CLSwift 1.1.1 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_39 /* CLSwift */,
+				OBJ_49 /* Package.swift */,
 			);
-			name = "CLSwift 1.0.6";
+			name = "CLSwift 1.1.1";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_39 /* CLSwift */ = {
@@ -246,7 +262,7 @@
 			children = (
 				OBJ_40 /* ErrorHandling */,
 				OBJ_42 /* Extensions */,
-				OBJ_44 /* Models */,
+				OBJ_45 /* Models */,
 			);
 			name = CLSwift;
 			path = ".build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift";
@@ -263,30 +279,21 @@
 		OBJ_42 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_43 /* Int+LosslessStringConvertible.swift */,
+				OBJ_43 /* ArrayElementString.swift */,
+				OBJ_44 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_44 /* Models */ = {
+		OBJ_45 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_45 /* Argument.swift */,
-				OBJ_46 /* CommandCenter.swift */,
-				OBJ_47 /* Result.swift */,
+				OBJ_46 /* Argument.swift */,
+				OBJ_47 /* CommandCenter.swift */,
+				OBJ_48 /* Result.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
-		};
-		OBJ_48 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_49 /* CLSwift.framework */,
-				OBJ_50 /* osxdotool */,
-				OBJ_51 /* osxdotoolTests.xctest */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
@@ -295,10 +302,20 @@
 				OBJ_7 /* Sources */,
 				OBJ_33 /* Tests */,
 				OBJ_37 /* Dependencies */,
-				OBJ_48 /* Products */,
+				OBJ_50 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
+		};
+		OBJ_50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"osxdotool::osxdotoolTests::Product" /* osxdotoolTests.xctest */,
+				"osxdotool::osxdotool::Product" /* osxdotool */,
+				"CLSwift::CLSwift::Product" /* CLSwift.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
@@ -311,26 +328,38 @@
 		OBJ_8 /* osxdotool */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* main.swift */,
-				OBJ_10 /* Constants */,
-				OBJ_15 /* ErrorHandling */,
-				OBJ_17 /* Extensions */,
-				OBJ_19 /* Helpers */,
-				OBJ_22 /* Commands */,
+				OBJ_9 /* Commands */,
+				OBJ_20 /* Constants */,
+				OBJ_25 /* ErrorHandling */,
+				OBJ_27 /* Extensions */,
+				OBJ_29 /* Helpers */,
+				OBJ_32 /* main.swift */,
 			);
 			name = osxdotool;
 			path = Sources/osxdotool;
 			sourceTree = SOURCE_ROOT;
 		};
+		OBJ_9 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Desktop */,
+				OBJ_12 /* Keyboard */,
+				OBJ_14 /* Misc */,
+				OBJ_16 /* Mouse */,
+				OBJ_18 /* Window */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_52 /* CLSwift */ = {
+		"CLSwift::CLSwift" /* CLSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_53 /* Build configuration list for PBXNativeTarget "CLSwift" */;
+			buildConfigurationList = OBJ_100 /* Build configuration list for PBXNativeTarget "CLSwift" */;
 			buildPhases = (
-				OBJ_56 /* Sources */,
-				OBJ_62 /* Frameworks */,
+				OBJ_103 /* Sources */,
+				OBJ_110 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,42 +367,70 @@
 			);
 			name = CLSwift;
 			productName = CLSwift;
-			productReference = OBJ_49 /* CLSwift.framework */;
+			productReference = "CLSwift::CLSwift::Product" /* CLSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_63 /* osxdotool */ = {
+		"CLSwift::SwiftPMPackageDescription" /* CLSwiftPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_64 /* Build configuration list for PBXNativeTarget "osxdotool" */;
+			buildConfigurationList = OBJ_61 /* Build configuration list for PBXNativeTarget "CLSwiftPackageDescription" */;
 			buildPhases = (
-				OBJ_67 /* Sources */,
-				OBJ_82 /* Frameworks */,
+				OBJ_64 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_84 /* PBXTargetDependency */,
+			);
+			name = CLSwiftPackageDescription;
+			productName = CLSwiftPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"osxdotool::SwiftPMPackageDescription" /* osxdotoolPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_55 /* Build configuration list for PBXNativeTarget "osxdotoolPackageDescription" */;
+			buildPhases = (
+				OBJ_58 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxdotoolPackageDescription;
+			productName = osxdotoolPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"osxdotool::osxdotool" /* osxdotool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_79 /* Build configuration list for PBXNativeTarget "osxdotool" */;
+			buildPhases = (
+				OBJ_82 /* Sources */,
+				OBJ_97 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_99 /* PBXTargetDependency */,
 			);
 			name = osxdotool;
 			productName = osxdotool;
-			productReference = OBJ_50 /* osxdotool */;
+			productReference = "osxdotool::osxdotool::Product" /* osxdotool */;
 			productType = "com.apple.product-type.tool";
 		};
-		OBJ_85 /* osxdotoolTests */ = {
+		"osxdotool::osxdotoolTests" /* osxdotoolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_86 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */;
+			buildConfigurationList = OBJ_67 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */;
 			buildPhases = (
-				OBJ_89 /* Sources */,
-				OBJ_92 /* Frameworks */,
+				OBJ_70 /* Sources */,
+				OBJ_73 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_94 /* PBXTargetDependency */,
-				OBJ_95 /* PBXTargetDependency */,
+				OBJ_75 /* PBXTargetDependency */,
+				OBJ_77 /* PBXTargetDependency */,
 			);
 			name = osxdotoolTests;
 			productName = osxdotoolTests;
-			productReference = OBJ_51 /* osxdotoolTests.xctest */;
+			productReference = "osxdotool::osxdotoolTests::Product" /* osxdotoolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -382,7 +439,18 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 9999;
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					"CLSwift::CLSwift" = {
+						LastSwiftMigration = 0910;
+					};
+					"osxdotool::osxdotool" = {
+						LastSwiftMigration = 0910;
+					};
+					"osxdotool::osxdotoolTests" = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "osxdotool" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -392,99 +460,207 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_48 /* Products */;
+			productRefGroup = OBJ_50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_52 /* CLSwift */,
-				OBJ_63 /* osxdotool */,
-				OBJ_85 /* osxdotoolTests */,
+				"osxdotool::SwiftPMPackageDescription" /* osxdotoolPackageDescription */,
+				"CLSwift::SwiftPMPackageDescription" /* CLSwiftPackageDescription */,
+				"osxdotool::osxdotoolTests" /* osxdotoolTests */,
+				"osxdotool::osxdotool" /* osxdotool */,
+				"CLSwift::CLSwift" /* CLSwift */,
+				"osxdotool::osxdotoolPackageTests::ProductTarget" /* osxdotoolPackageTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_56 /* Sources */ = {
+		OBJ_103 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_57 /* InputError.swift in Sources */,
-				OBJ_58 /* Int+LosslessStringConvertible.swift in Sources */,
-				OBJ_59 /* Argument.swift in Sources */,
-				OBJ_60 /* CommandCenter.swift in Sources */,
-				OBJ_61 /* Result.swift in Sources */,
+				OBJ_104 /* InputError.swift in Sources */,
+				OBJ_105 /* ArrayElementString.swift in Sources */,
+				OBJ_106 /* String.swift in Sources */,
+				OBJ_107 /* Argument.swift in Sources */,
+				OBJ_108 /* CommandCenter.swift in Sources */,
+				OBJ_109 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_67 /* Sources */ = {
+		OBJ_58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_68 /* main.swift in Sources */,
-				OBJ_69 /* Key.swift in Sources */,
-				OBJ_70 /* KeyConstants.swift in Sources */,
-				OBJ_71 /* ModifierKey.swift in Sources */,
-				OBJ_72 /* ShiftRequiredKey.swift in Sources */,
-				OBJ_73 /* InputError.swift in Sources */,
-				OBJ_74 /* Character+Helpers.swift in Sources */,
-				OBJ_75 /* KeyboardHelper.swift in Sources */,
-				OBJ_76 /* MouseButton.swift in Sources */,
-				OBJ_77 /* Desktop.swift in Sources */,
-				OBJ_78 /* Keyboard.swift in Sources */,
-				OBJ_79 /* Misc.swift in Sources */,
-				OBJ_80 /* Mouse.swift in Sources */,
-				OBJ_81 /* Window.swift in Sources */,
+				OBJ_59 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_89 /* Sources */ = {
+		OBJ_64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				247B9AA01F6B6EFA00042543 /* KeyboardHelper.swift in Sources */,
-				OBJ_90 /* HelperTests.swift in Sources */,
-				247B9AA21F6B6EFA00042543 /* Keyboard.swift in Sources */,
-				247B9AA11F6B6EFA00042543 /* MouseButton.swift in Sources */,
-				247B9A9F1F6B6EFA00042543 /* InputError.swift in Sources */,
-				OBJ_91 /* KeyboardTests.swift in Sources */,
-				247B9A9B1F6B6EFA00042543 /* Key.swift in Sources */,
-				247B9A9D1F6B6EFA00042543 /* ModifierKey.swift in Sources */,
-				247B9A9C1F6B6EFA00042543 /* KeyConstants.swift in Sources */,
-				247B9A9E1F6B6EFA00042543 /* ShiftRequiredKey.swift in Sources */,
+				OBJ_65 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_71 /* HelperTests.swift in Sources */,
+				242593511FBBFFAC009447B2 /* KeyConstants.swift in Sources */,
+				242593501FBBFFAA009447B2 /* Key.swift in Sources */,
+				2425934F1FBBFFA1009447B2 /* Keyboard.swift in Sources */,
+				242593561FBBFFC4009447B2 /* KeyboardHelper.swift in Sources */,
+				242593551FBBFFBF009447B2 /* Character+Helpers.swift in Sources */,
+				242593521FBBFFB0009447B2 /* ModifierKey.swift in Sources */,
+				242593571FBBFFC6009447B2 /* MouseButton.swift in Sources */,
+				242593541FBBFFBA009447B2 /* InputError.swift in Sources */,
+				242593531FBBFFB5009447B2 /* ShiftRequiredKey.swift in Sources */,
+				OBJ_72 /* KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_83 /* Desktop.swift in Sources */,
+				OBJ_84 /* Keyboard.swift in Sources */,
+				OBJ_85 /* Misc.swift in Sources */,
+				OBJ_86 /* Mouse.swift in Sources */,
+				OBJ_87 /* Window.swift in Sources */,
+				OBJ_88 /* Key.swift in Sources */,
+				OBJ_89 /* KeyConstants.swift in Sources */,
+				OBJ_90 /* ModifierKey.swift in Sources */,
+				OBJ_91 /* ShiftRequiredKey.swift in Sources */,
+				OBJ_92 /* InputError.swift in Sources */,
+				OBJ_93 /* Character+Helpers.swift in Sources */,
+				OBJ_94 /* KeyboardHelper.swift in Sources */,
+				OBJ_95 /* MouseButton.swift in Sources */,
+				OBJ_96 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_84 /* PBXTargetDependency */ = {
+		OBJ_115 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_52 /* CLSwift */;
-			targetProxy = 247B9A981F6B6EC400042543 /* PBXContainerItemProxy */;
+			target = "osxdotool::osxdotoolTests" /* osxdotoolTests */;
+			targetProxy = 2425934E1FBBFAF0009447B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_94 /* PBXTargetDependency */ = {
+		OBJ_75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_52 /* CLSwift */;
-			targetProxy = 247B9A991F6B6EC400042543 /* PBXContainerItemProxy */;
+			target = "osxdotool::osxdotool" /* osxdotool */;
+			targetProxy = 2425934C1FBBFAF0009447B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_95 /* PBXTargetDependency */ = {
+		OBJ_77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_63 /* osxdotool */;
-			targetProxy = 247B9A9A1F6B6EC400042543 /* PBXContainerItemProxy */;
+			target = "CLSwift::CLSwift" /* CLSwift */;
+			targetProxy = 2425934D1FBBFAF0009447B2 /* PBXContainerItemProxy */;
+		};
+		OBJ_99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CLSwift::CLSwift" /* CLSwift */;
+			targetProxy = 2425934B1FBBFAF0009447B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		OBJ_101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = osxdotool.xcodeproj/CLSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CLSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CLSwift;
+			};
+			name = Debug;
+		};
+		OBJ_102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = osxdotool.xcodeproj/CLSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CLSwift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CLSwift;
+			};
+			name = Release;
+		};
+		OBJ_113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-DXcode";
@@ -493,7 +669,6 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -502,11 +677,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,54 +713,85 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		OBJ_54 /* Debug */ = {
+		OBJ_56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = osxdotool.xcodeproj/CLSwift_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = CLSwift;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGET_NAME = CLSwift;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		OBJ_55 /* Release */ = {
+		OBJ_57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = osxdotool.xcodeproj/CLSwift_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				INFOPLIST_FILE = osxdotool.xcodeproj/osxdotoolTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = CLSwift;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGET_NAME = CLSwift;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = osxdotoolTests;
+			};
+			name = Debug;
+		};
+		OBJ_69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = osxdotool.xcodeproj/osxdotoolTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = osxdotoolTests;
 			};
 			name = Release;
 		};
-		OBJ_65 /* Debug */ = {
+		OBJ_80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -576,11 +806,13 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = osxdotool;
 			};
 			name = Debug;
 		};
-		OBJ_66 /* Release */ = {
+		OBJ_81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -595,47 +827,33 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = osxdotool;
-			};
-			name = Release;
-		};
-		OBJ_87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = osxdotool.xcodeproj/osxdotoolTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = osxdotoolTests;
-			};
-			name = Debug;
-		};
-		OBJ_88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = osxdotool.xcodeproj/osxdotoolTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				TARGET_NAME = osxdotoolTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		OBJ_100 /* Build configuration list for PBXNativeTarget "CLSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_101 /* Debug */,
+				OBJ_102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_112 /* Build configuration list for PBXAggregateTarget "osxdotoolPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_113 /* Debug */,
+				OBJ_114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		OBJ_2 /* Build configuration list for PBXProject "osxdotool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -645,29 +863,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_53 /* Build configuration list for PBXNativeTarget "CLSwift" */ = {
+		OBJ_55 /* Build configuration list for PBXNativeTarget "osxdotoolPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_54 /* Debug */,
-				OBJ_55 /* Release */,
+				OBJ_56 /* Debug */,
+				OBJ_57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_64 /* Build configuration list for PBXNativeTarget "osxdotool" */ = {
+		OBJ_61 /* Build configuration list for PBXNativeTarget "CLSwiftPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_65 /* Debug */,
-				OBJ_66 /* Release */,
+				OBJ_62 /* Debug */,
+				OBJ_63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_86 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */ = {
+		OBJ_67 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_87 /* Debug */,
-				OBJ_88 /* Release */,
+				OBJ_68 /* Debug */,
+				OBJ_69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_79 /* Build configuration list for PBXNativeTarget "osxdotool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_80 /* Debug */,
+				OBJ_81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
