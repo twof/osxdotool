@@ -12,7 +12,7 @@ import CLSwift
 public class Mouse {
     public static let mouseMove = Argument<Int>(argStrings: ["mousemove"], numArgs: .number(2)) { (result) in
         switch result {
-        case .success(let input):
+        case .success(let input, let state):
             let x = input[0]
             let y = input[1]
             

@@ -21,7 +21,7 @@ public class Keyboard {
     
     public static let type = Argument<String>(argStrings: ["type"], numArgs: .number(1)) { (result) in
         switch result {
-        case .success(let input):
+        case .success(let input, let state):
             let toType = input[0]
             
             do {
@@ -48,4 +48,10 @@ public class Keyboard {
             }
         }
     }
+    
+    /// Flags
+    private static let delayFlag = 
 }
+
+
+
