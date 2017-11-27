@@ -21,16 +21,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24C8E8FB1FCBDA5C005BBB54 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Keyboard.swift */; };
-		24C8E8FC1FCBDA5C005BBB54 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Mouse.swift */; };
-		24C8E8FD1FCBDA5C005BBB54 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Key.swift */; };
-		24C8E8FE1FCBDA5C005BBB54 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* KeyConstants.swift */; };
-		24C8E8FF1FCBDA5C005BBB54 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ModifierKey.swift */; };
-		24C8E9001FCBDA5C005BBB54 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ShiftRequiredKey.swift */; };
-		24C8E9011FCBDA5C005BBB54 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* InputError.swift */; };
-		24C8E9021FCBDA5C005BBB54 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Character+Helpers.swift */; };
-		24C8E9031FCBDA5C005BBB54 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* KeyboardHelper.swift */; };
-		24C8E9041FCBDA5C005BBB54 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* MouseButton.swift */; };
+		24C8E90E1FCC8591005BBB54 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Keyboard.swift */; };
+		24C8E90F1FCC8591005BBB54 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Mouse.swift */; };
+		24C8E9101FCC8591005BBB54 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Key.swift */; };
+		24C8E9111FCC8591005BBB54 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* KeyConstants.swift */; };
+		24C8E9121FCC8591005BBB54 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ModifierKey.swift */; };
+		24C8E9131FCC8591005BBB54 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ShiftRequiredKey.swift */; };
+		24C8E9141FCC8591005BBB54 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* InputError.swift */; };
+		24C8E9151FCC8591005BBB54 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Character+Helpers.swift */; };
+		24C8E9161FCC8591005BBB54 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* KeyboardHelper.swift */; };
+		24C8E9171FCC8591005BBB54 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* MouseButton.swift */; };
 		OBJ_105 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* InputError.swift */; };
 		OBJ_106 /* ArrayElementString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ArrayElementString.swift */; };
 		OBJ_107 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* String.swift */; };
@@ -61,28 +61,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24C8E8F71FCBDA25005BBB54 /* PBXContainerItemProxy */ = {
+		24C8E90A1FCC8577005BBB54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CLSwift::CLSwift";
 			remoteInfo = CLSwift;
 		};
-		24C8E8F81FCBDA25005BBB54 /* PBXContainerItemProxy */ = {
+		24C8E90B1FCC8577005BBB54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "osxdotool::osxdotool";
 			remoteInfo = osxdotool;
 		};
-		24C8E8F91FCBDA25005BBB54 /* PBXContainerItemProxy */ = {
+		24C8E90C1FCC8577005BBB54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CLSwift::CLSwift";
 			remoteInfo = CLSwift;
 		};
-		24C8E8FA1FCBDA26005BBB54 /* PBXContainerItemProxy */ = {
+		24C8E90D1FCC8577005BBB54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -246,18 +246,18 @@
 		OBJ_37 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_38 /* CLSwift 1.2.2 */,
+				OBJ_38 /* CLSwift 1.3.0 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_38 /* CLSwift 1.2.2 */ = {
+		OBJ_38 /* CLSwift 1.3.0 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_39 /* CLSwift */,
 				OBJ_50 /* Package.swift */,
 			);
-			name = "CLSwift 1.2.2";
+			name = "CLSwift 1.3.0";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_39 /* CLSwift */ = {
@@ -503,17 +503,17 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_72 /* HelperTests.swift in Sources */,
-				24C8E9011FCBDA5C005BBB54 /* InputError.swift in Sources */,
-				24C8E9001FCBDA5C005BBB54 /* ShiftRequiredKey.swift in Sources */,
-				24C8E8FD1FCBDA5C005BBB54 /* Key.swift in Sources */,
-				24C8E8FB1FCBDA5C005BBB54 /* Keyboard.swift in Sources */,
-				24C8E9041FCBDA5C005BBB54 /* MouseButton.swift in Sources */,
-				24C8E9031FCBDA5C005BBB54 /* KeyboardHelper.swift in Sources */,
-				24C8E9021FCBDA5C005BBB54 /* Character+Helpers.swift in Sources */,
+				24C8E9141FCC8591005BBB54 /* InputError.swift in Sources */,
+				24C8E9131FCC8591005BBB54 /* ShiftRequiredKey.swift in Sources */,
+				24C8E9101FCC8591005BBB54 /* Key.swift in Sources */,
+				24C8E90E1FCC8591005BBB54 /* Keyboard.swift in Sources */,
+				24C8E9171FCC8591005BBB54 /* MouseButton.swift in Sources */,
+				24C8E9161FCC8591005BBB54 /* KeyboardHelper.swift in Sources */,
+				24C8E9151FCC8591005BBB54 /* Character+Helpers.swift in Sources */,
 				OBJ_73 /* KeyboardTests.swift in Sources */,
-				24C8E8FC1FCBDA5C005BBB54 /* Mouse.swift in Sources */,
-				24C8E8FE1FCBDA5C005BBB54 /* KeyConstants.swift in Sources */,
-				24C8E8FF1FCBDA5C005BBB54 /* ModifierKey.swift in Sources */,
+				24C8E90F1FCC8591005BBB54 /* Mouse.swift in Sources */,
+				24C8E9111FCC8591005BBB54 /* KeyConstants.swift in Sources */,
+				24C8E9121FCC8591005BBB54 /* ModifierKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,22 +544,22 @@
 		OBJ_100 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CLSwift::CLSwift" /* CLSwift */;
-			targetProxy = 24C8E8F71FCBDA25005BBB54 /* PBXContainerItemProxy */;
+			targetProxy = 24C8E90A1FCC8577005BBB54 /* PBXContainerItemProxy */;
 		};
 		OBJ_117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "osxdotool::osxdotoolTests" /* osxdotoolTests */;
-			targetProxy = 24C8E8FA1FCBDA26005BBB54 /* PBXContainerItemProxy */;
+			targetProxy = 24C8E90D1FCC8577005BBB54 /* PBXContainerItemProxy */;
 		};
 		OBJ_76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "osxdotool::osxdotool" /* osxdotool */;
-			targetProxy = 24C8E8F81FCBDA25005BBB54 /* PBXContainerItemProxy */;
+			targetProxy = 24C8E90B1FCC8577005BBB54 /* PBXContainerItemProxy */;
 		};
 		OBJ_78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CLSwift::CLSwift" /* CLSwift */;
-			targetProxy = 24C8E8F91FCBDA25005BBB54 /* PBXContainerItemProxy */;
+			targetProxy = 24C8E90C1FCC8577005BBB54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

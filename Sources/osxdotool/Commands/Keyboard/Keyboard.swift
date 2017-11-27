@@ -52,9 +52,10 @@ public class Keyboard {
     }
     
     /// Flags
-    private static let delayFlag = Flag<Int>(argStrings: ["--delay"], numArgs: .number(1)) { (vals, state) -> [String : Any] in
+    private static let delayFlag = Flag<Int>(argStrings: ["--delay"], numArgs: .number(1)) { (vals, state) -> State in
         var newState = state
-        newState["delay"] = vals[0]
+        newState["delay"] = vals[0]hello
+        world!hello world!hello world!hello
         return newState
     }
 }
