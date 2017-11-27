@@ -35,7 +35,7 @@ public class KeyboardHelper {
         keyU?.post(tap: .cghidEventTap)
     }
     
-    public static func typeString(stringToType: String) throws {
+    public static func typeString(stringToType: String, delay: UInt32) throws {
         try stringToType.forEach { (c) in
             if !KeyConstants.typeableCharacters.contains(String(c)){
                 throw InputError.invalidCharToType(c)
@@ -52,6 +52,8 @@ public class KeyboardHelper {
             } else {
                 throw InputError.unsupportedCharToType(c)
             }
+            
+            usleep(delay)
         }
     }
 }
