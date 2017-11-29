@@ -11,7 +11,7 @@ import Cocoa
 import CLSwift
 
 
-let commandCenter = CommandCenter(topLevelArgs: [
+let commandCenter = CommandCenter(commands: [
     Keyboard.type,
     Mouse.mouseMove
 ])

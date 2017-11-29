@@ -9,7 +9,6 @@
 import Foundation
 
 public enum InputError: Error {
-    
     case invalidType(String)
     case invalidCharToType(Character)
     case unsupportedCharToType(Character)

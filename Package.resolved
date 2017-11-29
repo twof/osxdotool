@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CLSwift",
+        "repositoryURL": "https://github.com/twof/CLSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "1fa7b66a69912bd6f9d306481ef488365595b2a5",
+          "version": "1.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
