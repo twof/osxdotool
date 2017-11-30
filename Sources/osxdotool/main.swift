@@ -13,7 +13,8 @@ import CLSwift
 
 let commandCenter = CommandCenter(commands: [
     Keyboard.type,
-    Mouse.mouseMove
+    Mouse.mouseMove,
+    Misc.sleep
 ])
 
 let executedCommand = commandCenter.check()

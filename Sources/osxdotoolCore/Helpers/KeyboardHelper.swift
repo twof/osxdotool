@@ -53,7 +53,7 @@ public class KeyboardHelper {
                 throw InputError.unsupportedCharToType(c)
             }
             
-            usleep(delay)
+            usleep(delay * 1000)
         }
     }
 }
