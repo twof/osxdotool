@@ -1,5 +1,5 @@
 import XCTest
-@testable import osxdotool
+import osxdotoolCore
 
 class HelperTests: XCTestCase {
     func testKeycode() {
