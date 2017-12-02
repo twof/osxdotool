@@ -21,15 +21,6 @@ extension Mouse {
         //        return state
     }
     
-    static let sync = Flag(
-        triggers: ["--sync"],
-        help: "After sending the mouse move request, wait until the mouse is actually moved."
-    ) { (state) -> State in
-        var newState = state
-        fatalError("sync not implemented")
-        //        return state
-    }
-    
     static let repeats = Option<Int>(
         triggers: ["--repeat"],
         help: "Specify how many times to click.",
@@ -41,12 +32,14 @@ extension Mouse {
         //        return state
     }
     
-    static let shell = Flag(
-        triggers: ["--shell"],
-        help: "This makes getmouselocation output shell data you can eval"
-    ) { (state) -> State in
+    static let quiesce = Option<Int>(
+        triggers: ["--quiesce"],
+        help: "Delay in milliseconds before the next command will run.",
+        numParams: .number(1)
+    ) { (input, state) -> State in
+        let delay = input[0]
         var newState = state
-        fatalError("shell not implemented")
+        fatalError("quiesce not implemented")
         //        return state
     }
 }

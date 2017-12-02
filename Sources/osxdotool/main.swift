@@ -14,6 +14,7 @@ import CLSwift
 let commandCenter = CommandCenter(commands: [
     Keyboard.type,
     Mouse.mouseMove,
+    Desktop.getNumDesktops,
     Misc.sleep
 ])
 

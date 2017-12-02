@@ -6,39 +6,104 @@ osxdotool utilizes [CLSwift](https://github.com/twof/CLSwift), a CLI framework f
 
 ### Features
 Below is a list of commands that need to be ported from xdotool. You can see a complete list [here](https://www.semicomplete.com/projects/xdotool/xdotool.xhtml). I'm aiming to get as much baseline functionality complete before dealing with flags and extra options, so you can assume anything checked off isn't complete, and anything not checked off isn't started
-
-- [x] type
-- [ ] mousemove
-- [ ] mouseMoveRelative
-- [ ] getMouseLocation
-- [ ] click
 - [ ] key
-- [ ] mouseDown
-- [ ] mouseUp
+    - [ ] window
+    - [ ] clearmodifiers
+    - [x] delay
+- [ ] keydown
+    - [ ] window
+    - [ ] clearmodifiers
+    - [x] delay
+- [ ] keyup
+- [x] type
+    - [x] delay
+    - [ ] window
+    - [ ] clearmodifiers
+- [x] mousemove
+   - [ ] window
+   - [ ] screen
+   - [ ] polar
+   - [ ] clearmodifiers
+   - [ ] sync
+- [ ] mouseMoveRelative
+   - [ ] sync
+   - [ ] polar
+   - [ ] clearmodifiers
+- [ ] click
+   - [ ] clearmodifiers
+   - [ ] repeat
+   - [x] delay
+   - [ ] window
+- [ ] mousedown
+   - [ ] clearmodifiers
+   - [ ] repeat
+   - [x] delay
+   - [ ] window
+- [ ] mouseup
+   - [ ] clearmodifiers
+   - [ ] repeat
+   - [x] delay
+   - [ ] window
+- [ ] getMouseLocation
+    - [ ] shell
+- [ ] behaveScreenEdge
+    - [x] delay
+    - [ ] quiesce
 - [ ] search
+    - [ ] class
+    - [ ] classname
+    - [ ] maxdepth
+    - [ ] name
+    - [ ] onlyvisible
+    - [ ] pid
+    - [ ] screen
+    - [ ] desktop
+    - [ ] limit
+    - [ ] title
+    - [ ] all
+    - [ ] any
+    - [ ] sync
 - [ ] selectWindow
 - [ ] behave
 - [ ] getWindowPID
 - [ ] getWindowName
 - [ ] getWindowGeometry
+    - [ ] shell
 - [ ] getWindowFocus
 - [ ] windowSize
+    - [ ] usehints
+    - [ ] sync
 - [ ] windowMove
+    - [ ] sync
+    - [ ] relative
 - [ ] windowFocus
+    - [ ] sync
 - [ ] windowMap
+    - [ ] sync
 - [ ] windowMinimize
+    - [ ] sync
 - [ ] windowRaise
 - [ ] windowReparent
 - [ ] windowKill
 - [ ] windowUnmap
+    - [ ] sync
 - [ ] setWindow
+    - [ ] name
+    - [ ] iconName
+    - [ ] role
+    - [ ] classname
+    - [ ] class
+    - [ ] overridedirect
 - [ ] windowActivate
+    - [ ] sync
 - [ ] getActiveWindow
 - [ ] setNumDesktops
 - [ ] getNumDesktops
 - [ ] getDesktopViewport
+    - [ ] shell
 - [ ] setDesktopViewport
 - [ ] setDesktop
+    - [ ] relative
 - [ ] getDesktop
 - [ ] setDesktopForWindow
 - [ ] getDesktopForWindow

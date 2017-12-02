@@ -1,22 +1,22 @@
-//
-//  Desktop.swift
-//  osxdotool
-//
-//  Created by fnord on 9/13/17.
-//
-//
-
-import Foundation
+import AppKit
 import CLSwift
+
+// https://developer.apple.com/documentation/appkit/nsscreen
 
 public class Desktop {
 //    public static let windowActivate
     
 //    public static let getActiveWindow
     
-//    public static let setNumDesktops
+    public static let getNumDesktops = Command<Bool>(
+        triggers: ["get_num_desktops"],
+        help: "Output the current number of desktops.",
+        numParams: .none
+    ) { (_, _) in
+        print(NSScreen.screens.count)
+    }
     
-//    public static let getNumDesktops
+//    public static let setNumDesktops
     
 //    public static let getDesktopViewport
     

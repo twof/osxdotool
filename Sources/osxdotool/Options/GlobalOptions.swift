@@ -30,4 +30,22 @@ public enum GlobalOptions {
         newState["delay"] = vals[0]
         return newState
     }
+    
+    static let shell = Flag(
+        triggers: ["--shell"],
+        help: "Output values suitable for 'eval' in a shell."
+    ) { (state) -> State in
+        var newState = state
+        fatalError("shell not implemented")
+        //        return state
+    }
+    
+    static let sync = Flag(
+        triggers: ["--sync"],
+        help: "Wait until action occurs before next action"
+    ) { (state) -> State in
+        var newState = state
+        fatalError("sync not implemented")
+        //        return state
+    }
 }

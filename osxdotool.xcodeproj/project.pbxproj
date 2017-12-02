@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		243C20E01FD0DF4200261C48 /* Window+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C20DF1FD0DF4200261C48 /* Window+Options.swift */; };
 		OBJ_100 /* osxdotoolCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "osxdotool::osxdotoolCore::Product" /* osxdotoolCore.framework */; };
 		OBJ_108 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* InputError.swift */; };
 		OBJ_109 /* ArrayElementString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ArrayElementString.swift */; };
@@ -87,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243C20DF1FD0DF4200261C48 /* Window+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Window+Options.swift"; sourceTree = "<group>"; };
 		"CLSwift::CLSwift::Product" /* CLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		OBJ_11 /* KeyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 			children = (
 				OBJ_34 /* GlobalOptions.swift */,
 				OBJ_35 /* Mouse+Options.swift */,
+				243C20DF1FD0DF4200261C48 /* Window+Options.swift */,
 			);
 			path = Options;
 			sourceTree = "<group>";
@@ -550,6 +553,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				243C20E01FD0DF4200261C48 /* Window+Options.swift in Sources */,
 				OBJ_67 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
