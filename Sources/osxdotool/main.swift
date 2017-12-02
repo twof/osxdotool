@@ -14,6 +14,7 @@ import CLSwift
 let commandCenter = CommandCenter(commands: [
     Keyboard.type,
     Mouse.mouseMove,
+    Mouse.click,
     Desktop.getNumDesktops,
     Misc.sleep
 ])
@@ -22,4 +23,6 @@ let executedCommand = commandCenter.check()
 
 if let executedCommand = executedCommand {
     executedCommand.execute(commandline: commandCenter.input)
+} else {
+    print("Command not found")
 }

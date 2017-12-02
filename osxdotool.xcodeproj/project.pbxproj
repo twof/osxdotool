@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"osxdotool::osxdotoolPackageTests::ProductTarget" /* osxdotoolPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_132 /* Build configuration list for PBXAggregateTarget "osxdotoolPackageTests" */;
+			buildConfigurationList = OBJ_134 /* Build configuration list for PBXAggregateTarget "osxdotoolPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_135 /* PBXTargetDependency */,
+				OBJ_137 /* PBXTargetDependency */,
 			);
 			name = osxdotoolPackageTests;
 			productName = osxdotoolPackageTests;
@@ -21,64 +21,64 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		243C20E01FD0DF4200261C48 /* Window+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C20DF1FD0DF4200261C48 /* Window+Options.swift */; };
-		OBJ_100 /* osxdotoolCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "osxdotool::osxdotoolCore::Product" /* osxdotoolCore.framework */; };
-		OBJ_108 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* InputError.swift */; };
-		OBJ_109 /* ArrayElementString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ArrayElementString.swift */; };
-		OBJ_110 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Dictionary.swift */; };
-		OBJ_111 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* String.swift */; };
-		OBJ_112 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Command.swift */; };
-		OBJ_113 /* CommandCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* CommandCenter.swift */; };
-		OBJ_114 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Flag.swift */; };
-		OBJ_115 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Option.swift */; };
-		OBJ_116 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Result.swift */; };
-		OBJ_122 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Key.swift */; };
-		OBJ_123 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KeyConstants.swift */; };
-		OBJ_124 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ModifierKey.swift */; };
-		OBJ_125 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ShiftRequiredKey.swift */; };
-		OBJ_126 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* InputError.swift */; };
-		OBJ_127 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Character+Helpers.swift */; };
-		OBJ_128 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* KeyboardHelper.swift */; };
-		OBJ_129 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* MouseButton.swift */; };
-		OBJ_67 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_73 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Package.swift */; };
-		OBJ_79 /* HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* HelperTests.swift */; };
-		OBJ_80 /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* KeyboardTests.swift */; };
-		OBJ_82 /* osxdotoolCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "osxdotool::osxdotoolCore::Product" /* osxdotoolCore.framework */; };
-		OBJ_90 /* Desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Desktop.swift */; };
-		OBJ_91 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Keyboard.swift */; };
-		OBJ_92 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Misc.swift */; };
-		OBJ_93 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Mouse.swift */; };
-		OBJ_94 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Window.swift */; };
-		OBJ_95 /* GlobalOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* GlobalOptions.swift */; };
-		OBJ_96 /* Mouse+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Mouse+Options.swift */; };
-		OBJ_97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* main.swift */; };
-		OBJ_99 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CLSwift::CLSwift::Product" /* CLSwift.framework */; };
+		OBJ_101 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CLSwift::CLSwift::Product" /* CLSwift.framework */; };
+		OBJ_102 /* osxdotoolCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "osxdotool::osxdotoolCore::Product" /* osxdotoolCore.framework */; };
+		OBJ_110 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* InputError.swift */; };
+		OBJ_111 /* ArrayElementString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* ArrayElementString.swift */; };
+		OBJ_112 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Dictionary.swift */; };
+		OBJ_113 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* String.swift */; };
+		OBJ_114 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Command.swift */; };
+		OBJ_115 /* CommandCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* CommandCenter.swift */; };
+		OBJ_116 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Flag.swift */; };
+		OBJ_117 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Option.swift */; };
+		OBJ_118 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Result.swift */; };
+		OBJ_124 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Key.swift */; };
+		OBJ_125 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* KeyConstants.swift */; };
+		OBJ_126 /* ModifierKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ModifierKey.swift */; };
+		OBJ_127 /* ShiftRequiredKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ShiftRequiredKey.swift */; };
+		OBJ_128 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* InputError.swift */; };
+		OBJ_129 /* Character+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Character+Helpers.swift */; };
+		OBJ_130 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* KeyboardHelper.swift */; };
+		OBJ_131 /* MouseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* MouseButton.swift */; };
+		OBJ_68 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_74 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Package.swift */; };
+		OBJ_80 /* HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* HelperTests.swift */; };
+		OBJ_81 /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* KeyboardTests.swift */; };
+		OBJ_83 /* osxdotoolCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "osxdotool::osxdotoolCore::Product" /* osxdotoolCore.framework */; };
+		OBJ_91 /* Desktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Desktop.swift */; };
+		OBJ_92 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Keyboard.swift */; };
+		OBJ_93 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Misc.swift */; };
+		OBJ_94 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Mouse.swift */; };
+		OBJ_95 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Window.swift */; };
+		OBJ_96 /* GlobalOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* GlobalOptions.swift */; };
+		OBJ_97 /* Mouse+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Mouse+Options.swift */; };
+		OBJ_98 /* Window+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Window+Options.swift */; };
+		OBJ_99 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		243C20DB1FD0DD1C00261C48 /* PBXContainerItemProxy */ = {
+		243C20FC1FD35E4000261C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "CLSwift::CLSwift";
 			remoteInfo = CLSwift;
 		};
-		243C20DC1FD0DD1C00261C48 /* PBXContainerItemProxy */ = {
+		243C20FD1FD35E4000261C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "osxdotool::osxdotoolCore";
 			remoteInfo = osxdotoolCore;
 		};
-		243C20DD1FD0DD1C00261C48 /* PBXContainerItemProxy */ = {
+		243C20FE1FD35E4000261C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "osxdotool::osxdotoolCore";
 			remoteInfo = osxdotoolCore;
 		};
-		243C20DE1FD0DD1C00261C48 /* PBXContainerItemProxy */ = {
+		243C20FF1FD35E4000261C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -88,7 +88,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		243C20DF1FD0DF4200261C48 /* Window+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Window+Options.swift"; sourceTree = "<group>"; };
 		"CLSwift::CLSwift::Product" /* CLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		OBJ_11 /* KeyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
@@ -105,19 +104,20 @@
 		OBJ_32 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		OBJ_34 /* GlobalOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalOptions.swift; sourceTree = "<group>"; };
 		OBJ_35 /* Mouse+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mouse+Options.swift"; sourceTree = "<group>"; };
-		OBJ_36 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_39 /* HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTests.swift; sourceTree = "<group>"; };
-		OBJ_40 /* KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTests.swift; sourceTree = "<group>"; };
-		OBJ_45 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
-		OBJ_47 /* ArrayElementString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayElementString.swift; sourceTree = "<group>"; };
-		OBJ_48 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
-		OBJ_49 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		OBJ_51 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
-		OBJ_52 /* CommandCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandCenter.swift; sourceTree = "<group>"; };
-		OBJ_53 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
-		OBJ_54 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
-		OBJ_55 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		OBJ_56 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Package.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* Window+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Window+Options.swift"; sourceTree = "<group>"; };
+		OBJ_37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_40 /* HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperTests.swift; sourceTree = "<group>"; };
+		OBJ_41 /* KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTests.swift; sourceTree = "<group>"; };
+		OBJ_46 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
+		OBJ_48 /* ArrayElementString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayElementString.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		OBJ_50 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		OBJ_53 /* CommandCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandCenter.swift; sourceTree = "<group>"; };
+		OBJ_54 /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		OBJ_57 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/fnord/Documents/Swift/osxdotool/.build/checkouts/CLSwift.git--8698936768018570117/Package.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"osxdotool::osxdotool::Product" /* osxdotool */ = {isa = PBXFileReference; lastKnownFileType = text; path = osxdotool; sourceTree = BUILT_PRODUCTS_DIR; };
 		"osxdotool::osxdotoolCore::Product" /* osxdotoolCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = osxdotoolCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,34 +125,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_117 /* Frameworks */ = {
+		OBJ_100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_101 /* CLSwift.framework in Frameworks */,
+				OBJ_102 /* osxdotoolCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_119 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_130 /* Frameworks */ = {
+		OBJ_132 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_81 /* Frameworks */ = {
+		OBJ_82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_82 /* osxdotoolCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_98 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_99 /* CLSwift.framework in Frameworks */,
-				OBJ_100 /* osxdotoolCore.framework in Frameworks */,
+				OBJ_83 /* osxdotoolCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +189,7 @@
 			children = (
 				OBJ_22 /* Commands */,
 				OBJ_33 /* Options */,
-				OBJ_36 /* main.swift */,
+				OBJ_37 /* main.swift */,
 			);
 			name = osxdotool;
 			path = Sources/osxdotool;
@@ -252,71 +252,71 @@
 			children = (
 				OBJ_34 /* GlobalOptions.swift */,
 				OBJ_35 /* Mouse+Options.swift */,
-				243C20DF1FD0DF4200261C48 /* Window+Options.swift */,
+				OBJ_36 /* Window+Options.swift */,
 			);
 			path = Options;
 			sourceTree = "<group>";
 		};
-		OBJ_37 /* Tests */ = {
+		OBJ_38 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_38 /* osxdotoolTests */,
+				OBJ_39 /* osxdotoolTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_38 /* osxdotoolTests */ = {
+		OBJ_39 /* osxdotoolTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_39 /* HelperTests.swift */,
-				OBJ_40 /* KeyboardTests.swift */,
+				OBJ_40 /* HelperTests.swift */,
+				OBJ_41 /* KeyboardTests.swift */,
 			);
 			name = osxdotoolTests;
 			path = Tests/osxdotoolTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_41 /* Dependencies */ = {
+		OBJ_42 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_42 /* CLSwift 1.5.0 */,
+				OBJ_43 /* CLSwift 1.7.1 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_42 /* CLSwift 1.5.0 */ = {
+		OBJ_43 /* CLSwift 1.7.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_43 /* CLSwift */,
-				OBJ_56 /* Package.swift */,
+				OBJ_44 /* CLSwift */,
+				OBJ_57 /* Package.swift */,
 			);
-			name = "CLSwift 1.5.0";
+			name = "CLSwift 1.7.1";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_43 /* CLSwift */ = {
+		OBJ_44 /* CLSwift */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_44 /* ErrorHandling */,
-				OBJ_46 /* Extensions */,
-				OBJ_50 /* Models */,
+				OBJ_45 /* ErrorHandling */,
+				OBJ_47 /* Extensions */,
+				OBJ_51 /* Models */,
 			);
 			name = CLSwift;
 			path = ".build/checkouts/CLSwift.git--8698936768018570117/Sources/CLSwift";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_44 /* ErrorHandling */ = {
+		OBJ_45 /* ErrorHandling */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_45 /* InputError.swift */,
+				OBJ_46 /* InputError.swift */,
 			);
 			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
-		OBJ_46 /* Extensions */ = {
+		OBJ_47 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_47 /* ArrayElementString.swift */,
-				OBJ_48 /* Dictionary.swift */,
-				OBJ_49 /* String.swift */,
+				OBJ_48 /* ArrayElementString.swift */,
+				OBJ_49 /* Dictionary.swift */,
+				OBJ_50 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -326,26 +326,26 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_37 /* Tests */,
-				OBJ_41 /* Dependencies */,
-				OBJ_57 /* Products */,
+				OBJ_38 /* Tests */,
+				OBJ_42 /* Dependencies */,
+				OBJ_58 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_50 /* Models */ = {
+		OBJ_51 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_51 /* Command.swift */,
-				OBJ_52 /* CommandCenter.swift */,
-				OBJ_53 /* Flag.swift */,
-				OBJ_54 /* Option.swift */,
-				OBJ_55 /* Result.swift */,
+				OBJ_52 /* Command.swift */,
+				OBJ_53 /* CommandCenter.swift */,
+				OBJ_54 /* Flag.swift */,
+				OBJ_55 /* Option.swift */,
+				OBJ_56 /* Result.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		OBJ_57 /* Products */ = {
+		OBJ_58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"osxdotool::osxdotoolTests::Product" /* osxdotoolTests.xctest */,
@@ -393,10 +393,10 @@
 /* Begin PBXNativeTarget section */
 		"CLSwift::CLSwift" /* CLSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_104 /* Build configuration list for PBXNativeTarget "CLSwift" */;
+			buildConfigurationList = OBJ_106 /* Build configuration list for PBXNativeTarget "CLSwift" */;
 			buildPhases = (
-				OBJ_107 /* Sources */,
-				OBJ_117 /* Frameworks */,
+				OBJ_109 /* Sources */,
+				OBJ_119 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -409,9 +409,9 @@
 		};
 		"CLSwift::SwiftPMPackageDescription" /* CLSwiftPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "CLSwiftPackageDescription" */;
+			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "CLSwiftPackageDescription" */;
 			buildPhases = (
-				OBJ_72 /* Sources */,
+				OBJ_73 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -423,9 +423,9 @@
 		};
 		"osxdotool::SwiftPMPackageDescription" /* osxdotoolPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_63 /* Build configuration list for PBXNativeTarget "osxdotoolPackageDescription" */;
+			buildConfigurationList = OBJ_64 /* Build configuration list for PBXNativeTarget "osxdotoolPackageDescription" */;
 			buildPhases = (
-				OBJ_66 /* Sources */,
+				OBJ_67 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -437,16 +437,16 @@
 		};
 		"osxdotool::osxdotool" /* osxdotool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_86 /* Build configuration list for PBXNativeTarget "osxdotool" */;
+			buildConfigurationList = OBJ_87 /* Build configuration list for PBXNativeTarget "osxdotool" */;
 			buildPhases = (
-				OBJ_89 /* Sources */,
-				OBJ_98 /* Frameworks */,
+				OBJ_90 /* Sources */,
+				OBJ_100 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_101 /* PBXTargetDependency */,
 				OBJ_103 /* PBXTargetDependency */,
+				OBJ_105 /* PBXTargetDependency */,
 			);
 			name = osxdotool;
 			productName = osxdotool;
@@ -455,10 +455,10 @@
 		};
 		"osxdotool::osxdotoolCore" /* osxdotoolCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_118 /* Build configuration list for PBXNativeTarget "osxdotoolCore" */;
+			buildConfigurationList = OBJ_120 /* Build configuration list for PBXNativeTarget "osxdotoolCore" */;
 			buildPhases = (
-				OBJ_121 /* Sources */,
-				OBJ_130 /* Frameworks */,
+				OBJ_123 /* Sources */,
+				OBJ_132 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -471,15 +471,15 @@
 		};
 		"osxdotool::osxdotoolTests" /* osxdotoolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_75 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */;
+			buildConfigurationList = OBJ_76 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */;
 			buildPhases = (
-				OBJ_78 /* Sources */,
-				OBJ_81 /* Frameworks */,
+				OBJ_79 /* Sources */,
+				OBJ_82 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_83 /* PBXTargetDependency */,
+				OBJ_84 /* PBXTargetDependency */,
 			);
 			name = osxdotoolTests;
 			productName = osxdotoolTests;
@@ -502,7 +502,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_57 /* Products */;
+			productRefGroup = OBJ_58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -518,105 +518,105 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_107 /* Sources */ = {
+		OBJ_109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_108 /* InputError.swift in Sources */,
-				OBJ_109 /* ArrayElementString.swift in Sources */,
-				OBJ_110 /* Dictionary.swift in Sources */,
-				OBJ_111 /* String.swift in Sources */,
-				OBJ_112 /* Command.swift in Sources */,
-				OBJ_113 /* CommandCenter.swift in Sources */,
-				OBJ_114 /* Flag.swift in Sources */,
-				OBJ_115 /* Option.swift in Sources */,
-				OBJ_116 /* Result.swift in Sources */,
+				OBJ_110 /* InputError.swift in Sources */,
+				OBJ_111 /* ArrayElementString.swift in Sources */,
+				OBJ_112 /* Dictionary.swift in Sources */,
+				OBJ_113 /* String.swift in Sources */,
+				OBJ_114 /* Command.swift in Sources */,
+				OBJ_115 /* CommandCenter.swift in Sources */,
+				OBJ_116 /* Flag.swift in Sources */,
+				OBJ_117 /* Option.swift in Sources */,
+				OBJ_118 /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_121 /* Sources */ = {
+		OBJ_123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_122 /* Key.swift in Sources */,
-				OBJ_123 /* KeyConstants.swift in Sources */,
-				OBJ_124 /* ModifierKey.swift in Sources */,
-				OBJ_125 /* ShiftRequiredKey.swift in Sources */,
-				OBJ_126 /* InputError.swift in Sources */,
-				OBJ_127 /* Character+Helpers.swift in Sources */,
-				OBJ_128 /* KeyboardHelper.swift in Sources */,
-				OBJ_129 /* MouseButton.swift in Sources */,
+				OBJ_124 /* Key.swift in Sources */,
+				OBJ_125 /* KeyConstants.swift in Sources */,
+				OBJ_126 /* ModifierKey.swift in Sources */,
+				OBJ_127 /* ShiftRequiredKey.swift in Sources */,
+				OBJ_128 /* InputError.swift in Sources */,
+				OBJ_129 /* Character+Helpers.swift in Sources */,
+				OBJ_130 /* KeyboardHelper.swift in Sources */,
+				OBJ_131 /* MouseButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_66 /* Sources */ = {
+		OBJ_67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				243C20E01FD0DF4200261C48 /* Window+Options.swift in Sources */,
-				OBJ_67 /* Package.swift in Sources */,
+				OBJ_68 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_72 /* Sources */ = {
+		OBJ_73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_73 /* Package.swift in Sources */,
+				OBJ_74 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_78 /* Sources */ = {
+		OBJ_79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_79 /* HelperTests.swift in Sources */,
-				OBJ_80 /* KeyboardTests.swift in Sources */,
+				OBJ_80 /* HelperTests.swift in Sources */,
+				OBJ_81 /* KeyboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_89 /* Sources */ = {
+		OBJ_90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_90 /* Desktop.swift in Sources */,
-				OBJ_91 /* Keyboard.swift in Sources */,
-				OBJ_92 /* Misc.swift in Sources */,
-				OBJ_93 /* Mouse.swift in Sources */,
-				OBJ_94 /* Window.swift in Sources */,
-				OBJ_95 /* GlobalOptions.swift in Sources */,
-				OBJ_96 /* Mouse+Options.swift in Sources */,
-				OBJ_97 /* main.swift in Sources */,
+				OBJ_91 /* Desktop.swift in Sources */,
+				OBJ_92 /* Keyboard.swift in Sources */,
+				OBJ_93 /* Misc.swift in Sources */,
+				OBJ_94 /* Mouse.swift in Sources */,
+				OBJ_95 /* Window.swift in Sources */,
+				OBJ_96 /* GlobalOptions.swift in Sources */,
+				OBJ_97 /* Mouse+Options.swift in Sources */,
+				OBJ_98 /* Window+Options.swift in Sources */,
+				OBJ_99 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_101 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "CLSwift::CLSwift" /* CLSwift */;
-			targetProxy = 243C20DB1FD0DD1C00261C48 /* PBXContainerItemProxy */;
-		};
 		OBJ_103 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "osxdotool::osxdotoolCore" /* osxdotoolCore */;
-			targetProxy = 243C20DC1FD0DD1C00261C48 /* PBXContainerItemProxy */;
+			target = "CLSwift::CLSwift" /* CLSwift */;
+			targetProxy = 243C20FC1FD35E4000261C48 /* PBXContainerItemProxy */;
 		};
-		OBJ_135 /* PBXTargetDependency */ = {
+		OBJ_105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "osxdotool::osxdotoolCore" /* osxdotoolCore */;
+			targetProxy = 243C20FD1FD35E4000261C48 /* PBXContainerItemProxy */;
+		};
+		OBJ_137 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "osxdotool::osxdotoolTests" /* osxdotoolTests */;
-			targetProxy = 243C20DE1FD0DD1C00261C48 /* PBXContainerItemProxy */;
+			targetProxy = 243C20FF1FD35E4000261C48 /* PBXContainerItemProxy */;
 		};
-		OBJ_83 /* PBXTargetDependency */ = {
+		OBJ_84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "osxdotool::osxdotoolCore" /* osxdotoolCore */;
-			targetProxy = 243C20DD1FD0DD1C00261C48 /* PBXContainerItemProxy */;
+			targetProxy = 243C20FE1FD35E4000261C48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_105 /* Debug */ = {
+		OBJ_107 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -638,7 +638,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_106 /* Release */ = {
+		OBJ_108 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -660,7 +660,7 @@
 			};
 			name = Release;
 		};
-		OBJ_119 /* Debug */ = {
+		OBJ_121 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -682,7 +682,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_120 /* Release */ = {
+		OBJ_122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -704,13 +704,13 @@
 			};
 			name = Release;
 		};
-		OBJ_133 /* Debug */ = {
+		OBJ_135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_134 /* Release */ = {
+		OBJ_136 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
@@ -758,7 +758,7 @@
 			};
 			name = Release;
 		};
-		OBJ_64 /* Debug */ = {
+		OBJ_65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -767,7 +767,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_65 /* Release */ = {
+		OBJ_66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -776,7 +776,7 @@
 			};
 			name = Release;
 		};
-		OBJ_70 /* Debug */ = {
+		OBJ_71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -785,7 +785,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_71 /* Release */ = {
+		OBJ_72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -794,7 +794,7 @@
 			};
 			name = Release;
 		};
-		OBJ_76 /* Debug */ = {
+		OBJ_77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -812,7 +812,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_77 /* Release */ = {
+		OBJ_78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -830,7 +830,7 @@
 			};
 			name = Release;
 		};
-		OBJ_87 /* Debug */ = {
+		OBJ_88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -849,7 +849,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_88 /* Release */ = {
+		OBJ_89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -871,29 +871,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_104 /* Build configuration list for PBXNativeTarget "CLSwift" */ = {
+		OBJ_106 /* Build configuration list for PBXNativeTarget "CLSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_105 /* Debug */,
-				OBJ_106 /* Release */,
+				OBJ_107 /* Debug */,
+				OBJ_108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_118 /* Build configuration list for PBXNativeTarget "osxdotoolCore" */ = {
+		OBJ_120 /* Build configuration list for PBXNativeTarget "osxdotoolCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_119 /* Debug */,
-				OBJ_120 /* Release */,
+				OBJ_121 /* Debug */,
+				OBJ_122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_132 /* Build configuration list for PBXAggregateTarget "osxdotoolPackageTests" */ = {
+		OBJ_134 /* Build configuration list for PBXAggregateTarget "osxdotoolPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_133 /* Debug */,
-				OBJ_134 /* Release */,
+				OBJ_135 /* Debug */,
+				OBJ_136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -907,38 +907,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_63 /* Build configuration list for PBXNativeTarget "osxdotoolPackageDescription" */ = {
+		OBJ_64 /* Build configuration list for PBXNativeTarget "osxdotoolPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_64 /* Debug */,
-				OBJ_65 /* Release */,
+				OBJ_65 /* Debug */,
+				OBJ_66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_69 /* Build configuration list for PBXNativeTarget "CLSwiftPackageDescription" */ = {
+		OBJ_70 /* Build configuration list for PBXNativeTarget "CLSwiftPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_70 /* Debug */,
-				OBJ_71 /* Release */,
+				OBJ_71 /* Debug */,
+				OBJ_72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_75 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */ = {
+		OBJ_76 /* Build configuration list for PBXNativeTarget "osxdotoolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_76 /* Debug */,
-				OBJ_77 /* Release */,
+				OBJ_77 /* Debug */,
+				OBJ_78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_86 /* Build configuration list for PBXNativeTarget "osxdotool" */ = {
+		OBJ_87 /* Build configuration list for PBXNativeTarget "osxdotool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_87 /* Debug */,
-				OBJ_88 /* Release */,
+				OBJ_88 /* Debug */,
+				OBJ_89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

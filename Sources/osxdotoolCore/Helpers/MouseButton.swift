@@ -7,12 +7,12 @@
 //
 import Cocoa
 
-enum MouseButton: Int {
+public enum MouseButton: Int {
     case left
     case middle
     case right
     
-    func click() {
+    public func click() {
         switch self {
         case .left:
             leftClick()

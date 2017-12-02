@@ -23,7 +23,6 @@ public class Keyboard {
     public static let type = Command<String>(
         triggers: ["type"],
         help: "Types input",
-        state: ["delay": 12],
         numParams: .number(1),
         options: [GlobalOptions.delay]
     ) { (input, state) in

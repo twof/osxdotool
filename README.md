@@ -29,7 +29,7 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
    - [ ] sync
    - [ ] polar
    - [ ] clearmodifiers
-- [ ] click
+- [x] click
    - [ ] clearmodifiers
    - [ ] repeat
    - [x] delay
