@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Sources/osxdotool/Commands/Mouse/Mouse.swift"
-            timestampString = "533946148.223839"
+            filePath = "Sources/osxdotool/Commands/Keyboard/Keyboard.swift"
+            timestampString = "534178756.367451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "click"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "type"
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>

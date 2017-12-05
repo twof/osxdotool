@@ -9,11 +9,11 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
 - [ ] key
     - [ ] window
     - [ ] clearmodifiers
-    - [x] delay
+    - [ ] delay
 - [ ] keydown
     - [ ] window
     - [ ] clearmodifiers
-    - [x] delay
+    - [ ] delay
 - [ ] keyup
 - [x] type
     - [x] delay
@@ -31,7 +31,7 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
    - [ ] clearmodifiers
 - [x] click
    - [ ] clearmodifiers
-   - [ ] **repeat**
+   - [x] repeat
    - [x] delay
    - [ ] window
 - [ ] **mousedown**
@@ -42,12 +42,12 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
 - [ ] **mouseup**
    - [ ] clearmodifiers
    - [ ] **repeat**
-   - [x] delay
+   - [ ] delay
    - [ ] window
 - [ ] **getMouseLocation**
     - [ ] **shell**
 - [ ] behaveScreenEdge
-    - [x] delay
+    - [ ] delay
     - [ ] quiesce
 - [ ] search
     - [ ] class

@@ -23,18 +23,6 @@ extension Mouse {
         //        return state
     }
     
-    static let repeats = Option<Int>(
-        triggers: ["--repeat"],
-        help: "Specify how many times to click.",
-        state: ["repeat": 1],
-        numParams: .number(1)
-    ) { (input, state) -> State in
-        let numClicks = input[0]
-        var newState = state
-        fatalError("repeats not implemented")
-        //        return state
-    }
-    
     static let quiesce = Option<Int>(
         triggers: ["--quiesce"],
         help: "Delay in milliseconds before the next command will run.",
