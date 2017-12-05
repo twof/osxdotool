@@ -2,10 +2,10 @@
 
 osxdotool is a drop-in xdotool replacement for macOS users.
 
-osxdotool utilizes [CLSwift](https://github.com/twof/CLSwift), a CLI framework for Swift. 
+osxdotool utilizes [CLSwift](https://github.com/twof/CLSwift), a CLI framework for Swift. CLSwift is still in active early development so the public api is subject to breaking changes. 
 
 ### Features
-Below is a list of commands that need to be ported from xdotool. You can see a complete list [here](https://www.semicomplete.com/projects/xdotool/xdotool.xhtml).
+Below is a list of commands that need to be ported from xdotool. You can see a complete list [here](https://www.semicomplete.com/projects/xdotool/xdotool.xhtml). I've bolded the ones that are probably pretty easy. Anything to do with windows and desktops might need to use accesability libraries. Not really sure right now, but I'll start really pulling appart the AmethystWM when I get to that point.
 - [ ] key
     - [ ] window
     - [ ] clearmodifiers
@@ -22,30 +22,30 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
 - [x] mousemove
    - [ ] window
    - [ ] screen
-   - [ ] polar
+   - [ ] **polar**
    - [ ] clearmodifiers
    - [ ] sync
-- [ ] mouseMoveRelative
+- [ ] **mouseMoveRelative**
    - [ ] sync
-   - [ ] polar
+   - [ ] **polar**
    - [ ] clearmodifiers
 - [x] click
    - [ ] clearmodifiers
-   - [ ] repeat
+   - [ ] **repeat**
    - [x] delay
    - [ ] window
-- [ ] mousedown
+- [ ] **mousedown**
    - [ ] clearmodifiers
-   - [ ] repeat
+   - [ ] **repeat**
    - [x] delay
    - [ ] window
-- [ ] mouseup
+- [ ] **mouseup**
    - [ ] clearmodifiers
-   - [ ] repeat
+   - [ ] **repeat**
    - [x] delay
    - [ ] window
-- [ ] getMouseLocation
-    - [ ] shell
+- [ ] **getMouseLocation**
+    - [ ] **shell**
 - [ ] behaveScreenEdge
     - [x] delay
     - [ ] quiesce
@@ -98,13 +98,13 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
     - [ ] sync
 - [ ] getActiveWindow
 - [ ] setNumDesktops
-- [ ] getNumDesktops
+- [ ] **getNumDesktops**
 - [ ] getDesktopViewport
     - [ ] shell
 - [ ] setDesktopViewport
 - [ ] setDesktop
     - [ ] relative
-- [ ] getDesktop
+- [ ] **getDesktop**
 - [ ] setDesktopForWindow
 - [ ] getDesktopForWindow
-- [ ] sleep
+- [x] sleep
