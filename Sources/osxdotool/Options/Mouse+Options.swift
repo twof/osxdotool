@@ -1,6 +1,9 @@
 import CLSwift
 
 extension Mouse {
+    enum Constant {
+        static let polar = "polar"
+    }
     static let screen = Option<Int>(
         triggers: ["--screen"],
         help: "Move the mouse to the specified screen to move to.",
@@ -16,11 +19,11 @@ extension Mouse {
     static let polar = Flag(
         triggers: ["--polar"],
         help: "Use polar coordinates.",
-        state: ["polar": false]
+        state: [Constant.polar: false]
     ) { (state) -> State in
         var newState = state
-        fatalError("polar not implemented")
-        //        return state
+        newState[Constant.polar] = true
+        return newState
     }
     
     static let quiesce = Option<Int>(

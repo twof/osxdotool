@@ -21,8 +21,16 @@ public class Mouse {
                   GlobalOptions.clearModifiers,
                   GlobalOptions.sync]
     ) { (input, state) in
-        let x = input[0]
-        let y = input[1]
+        var x = input[0]
+        var y = input[1]
+        
+        guard let isPolar = state[Constant.polar] as? Bool
+            else {throw InputError.customError("Polar state is broken")}
+        if isPolar {
+            let radius = input[0]
+            let angle = input[1]
+            (x, y) = polarToCartesian(radius: radius, angle: angle)
+        }
         
         CGDisplayMoveCursorToPoint(CGMainDisplayID(), CGPoint(x: x, y: y))
     }
@@ -56,4 +64,12 @@ public class Mouse {
 //    public static let behaveScreenEdge
     
     
+}
+
+extension Mouse {
+    private static func polarToCartesian(radius: Int, angle: Int) -> (Int, Int) {
+        let x = Int(Double(radius) * cos(Double(angle)))
+        let y = Int(Double(radius) * sin(Double(angle)))
+        return (x, y)
+    }
 }

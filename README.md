@@ -22,7 +22,7 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
 - [x] mousemove
    - [ ] window
    - [ ] screen
-   - [ ] **polar**
+   - [x] polar
    - [ ] clearmodifiers
    - [ ] sync
 - [ ] **mouseMoveRelative**
