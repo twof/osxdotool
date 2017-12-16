@@ -25,9 +25,9 @@ Below is a list of commands that need to be ported from xdotool. You can see a c
    - [x] polar
    - [ ] clearmodifiers
    - [ ] sync
-- [ ] **mouseMoveRelative**
+- [x] mouseMoveRelative
    - [ ] sync
-   - [ ] **polar**
+   - [x] polar
    - [ ] clearmodifiers
 - [x] click
    - [ ] clearmodifiers

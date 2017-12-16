@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import AppKit
 import CLSwift
 import osxdotoolCore
 
@@ -35,7 +36,31 @@ public class Mouse {
         CGDisplayMoveCursorToPoint(CGMainDisplayID(), CGPoint(x: x, y: y))
     }
     
-//    public static let mouseMoveRelative
+    public static let mouseMoveRelative = Command<Int>(
+        triggers: ["mousemove_relative"],
+        help: "Move the mouse x,y pixels relative to the current position of the mouse cursor",
+        numParams: .number(2),
+        options: [Mouse.polar,
+            GlobalOptions.sync,
+            GlobalOptions.clearModifiers]
+    ) { (input, state) in
+        var x = input[0]
+        var y = input[1]
+        let startingPoint: CGPoint = NSEvent.mouseLocation
+        
+        guard let isPolar = state[Constant.polar] as? Bool
+            else {throw InputError.customError("Polar state is broken")}
+        if isPolar {
+            let radius = input[0]
+            let angle = input[1]
+            (x, y) = polarToCartesian(radius: radius, angle: angle)
+        }
+        
+        var endX = x + Int(startingPoint.x)
+        var endY = y + Int(startingPoint.y)
+        
+        CGDisplayMoveCursorToPoint(CGMainDisplayID(), CGPoint(x: endX, y: endY))
+    }
     
     public static let click = Command<Int>(
         triggers: ["click"],
@@ -59,7 +84,15 @@ public class Mouse {
     
 //    public static let mouseUp
     
-//    public static let getMouseLocation
+    public static let getMouseLocation = Command<Bool>(
+        triggers: ["getmouselocation"],
+        help: "Outputs the x, y, screen, and window id of the mouse cursor.",
+        numParams: .none,
+        options: [GlobalOptions.shell]
+    ) { (_, state) in
+        let location = NSEvent.mouseLocation
+        print("\(location.x), \(location.y)")
+    }
     
 //    public static let behaveScreenEdge
     
