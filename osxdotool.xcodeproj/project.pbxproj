@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		240322F71FE75548000D494E /* AccessibilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240322F61FE75548000D494E /* AccessibilityHelper.swift */; };
 		OBJ_101 /* CLSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CLSwift::CLSwift::Product" /* CLSwift.framework */; };
 		OBJ_102 /* osxdotoolCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "osxdotool::osxdotoolCore::Product" /* osxdotoolCore.framework */; };
 		OBJ_110 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* InputError.swift */; };
@@ -88,6 +89,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240322F61FE75548000D494E /* AccessibilityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHelper.swift; sourceTree = "<group>"; };
 		"CLSwift::CLSwift::Product" /* CLSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		OBJ_11 /* KeyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			children = (
 				OBJ_19 /* KeyboardHelper.swift */,
 				OBJ_20 /* MouseButton.swift */,
+				240322F61FE75548000D494E /* AccessibilityHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -321,7 +324,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -330,7 +333,6 @@
 				OBJ_42 /* Dependencies */,
 				OBJ_58 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_51 /* Models */ = {
@@ -501,7 +503,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -553,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				240322F71FE75548000D494E /* AccessibilityHelper.swift in Sources */,
 				OBJ_68 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
